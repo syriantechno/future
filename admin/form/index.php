@@ -30,7 +30,7 @@ add_page_info('nav', array('name' => 'ادارة التوزيع'));
                 <div class="box-menu">
                     <a href="<?php site_url('admin/form/list.php'); ?>">
 						<span class="icon-box3">
-                            <div class="stats-title">جميع عمليات التوزيع</div>
+                            <div class="stats-title">عمليات التوزيع</div>
                             <i class="faw fa-list" style="color: rgba(255, 255, 255, 0.4117647058823529);"></i>
                         <hr>
                             <div class="stats-desc">استعراض جميع عمليات التوزيع</div>
