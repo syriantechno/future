@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/adam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/alerts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/buttons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/colors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/grid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/icons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/panels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/tabs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/_developer/typography.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/exportexl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/getJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/print-address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/print-barcode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/print-cargo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/print-statement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/account/tree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/print-invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/form/print.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/getJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/print-barcode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/print-barcode_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/item/print-statement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case/_add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case/_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case/_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/case/index_.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/payment/print.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/question/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/backup/BackUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/backup/database_safa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/backup/database_test2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/backup/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/backup/restor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/case/_add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/case/_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/case/_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/case/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/case/index_.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/form_status/_add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/form_status/_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/form_status/_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/form_status/form_status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/form_status/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/info/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/not-found.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/system/options/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/change_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/getJSON.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/getMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/getNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/inc_user_cv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/inc_user_salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message-writing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/_sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/list kopya.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/message/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/print_cv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/print_salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/print_salary_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/sendMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/setNotification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/task/_sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/task/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/task/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/task/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/task/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/user/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/_helper/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/_helper/print_footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/_helper/print_header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/account/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/form/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/item/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/payment/detail-salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/payment/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pages/payment/print-salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/app-minan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/bootstrap2-toggle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/css/ultra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/Almarai-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/Almarai-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/Swissra-Normal.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-bold-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-extrabold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-extrabold-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-light-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/almarai-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/3e360904-617b-48b5-83a5-2475e42b00d1.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/avatar_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/cheetah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/e7a17baf-b18b-4846-b29c-2e6ae4bf2d94.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/f0a6c382-6e08-4964-9fd7-117283df6eb0.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/loay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/login/bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/login/bg-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/login/bg-44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/login/url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/login_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/logo_blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/logo_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/logo_header1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/logo_header22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/no-avatar-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/no-avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/img/sideuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/bootstrap2-toggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.PolarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/charts/Chart.Scatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.polarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/controllers/controller.radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.canvasHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.datasetController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.interaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.layoutService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.scaleService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.ticks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/core/core.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/elements/element.arc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/elements/element.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/elements/element.point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/elements/element.rectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.linearbase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.logarithmic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.radialLinear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/chartjs/scales/scale.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/fullcalendar-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/jquery.number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/js/til-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/sound/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/sound/message.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/sound/message_android.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/widgets/dashboard_chart_in_out.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/widgets/dashboard_last_orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/default/widgets/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/01/19/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/01/25/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/01/27/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/01/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/02/10/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/02/21/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/02/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/22/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/23/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/24/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/25/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/27/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/28/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/29/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/30/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/31/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/03/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/04/10/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/04/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/11/19/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/11/20/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/11/21/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/11/23/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/11/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2017/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2018/01/09/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2018/01/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2018/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/08/31/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/08/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/09/01/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/09/04/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/09/07/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/09/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/2020/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/upload/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/case.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/chartjs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/barcode/barcode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/barcode/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.PolarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/charts/Chart.Scatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.doughnut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.polarArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/controllers/controller.radar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.canvasHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.datasetController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.interaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.layoutService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.scaleService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.ticks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/core/core.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/elements/element.arc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/elements/element.line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/elements/element.point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/elements/element.rectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.linear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.linearbase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.logarithmic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.radialLinear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/chartjs/scales/scale.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/countries/country.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/countries/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/countries/sex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/countries/type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/autoload.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/export_pdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/Cpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/Times-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/Times-BoldItalic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/Times-Italic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/Times-Roman.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/InputStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/TreeBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/html5lib/named-character-references.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/res/broken_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/res/html.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/lib/res/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Adapter/CPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Adapter/GD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Adapter/PDFLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Adapter/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Canvas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/CanvasFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Cellmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Css/AttributeTranslator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Css/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Css/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Css/Stylesheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Dompdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Exception/ImageException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Exception/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FontMetrics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/FrameList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/FrameListIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/FrameTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/FrameTreeIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/FrameTreeList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Frame/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/AbstractFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/ListBulletImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/NullFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameDecorator/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/AbstractFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/NullFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/FrameReflower/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Image/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Image/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/JavascriptEmbedder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/LineBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/PhpEvaluator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/Absolute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/AbstractPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/Fixed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/NullPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Positioner/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/AbstractRenderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/Renderer/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/dompdf/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/PHPMailerAutoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/class.phpmailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/class.phpmaileroauth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/class.phpmaileroauthgoogle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/class.pop3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/class.smtp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/DKIM.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/code_generator.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/contactform.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/contents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/contentsutf8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/exceptions.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/gmail.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/gmail_xoauth.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/images/phpmailer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/images/phpmailer_mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/mail.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/mailing_list.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/pop_before_smtp.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/scripts/XRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/scripts/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/send_file_upload.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/send_multiple_file_upload.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/sendmail.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/signed-mail.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/smtp.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/smtp_check.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/smtp_no_auth.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/ssl_options.phps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeAppleScript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/shThemeVisualStudio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/examples/styles/wrapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/extras/EasyPeasyICS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/extras/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/extras/htmlfilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/extras/ntlm_sasl_client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/phpMailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/langs/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/langs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/langs/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/code_html/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/comment/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/comment/continuecomment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/display/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/display/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/display/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/display/rulers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/closebrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/closetag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/continuelist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/matchbrackets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/matchtags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/edit/trailingspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/brace-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/comment-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/foldcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/foldgutter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/foldgutter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/indent-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/markdown-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/fold/xml-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/anyword-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/css-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/html-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/javascript-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/python-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/show-hint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/show-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/sql-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/hint/xml-hint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/coffeescript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/css-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/javascript-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/json-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/lint.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/lint/yaml-lint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/merge/merge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/merge/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/mode/loadmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/mode/multiplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/mode/multiplex_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/mode/overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/mode/simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/runmode/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/runmode/runmode-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/runmode/runmode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/runmode/runmode.node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/scroll/scrollpastend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/search/match-highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/search/searchcursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/selection/active-line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/selection/mark-selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/tern/tern.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/tern/tern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/tern/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/addon/wrap/hardwrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/bin/authors.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/bin/compress" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/bin/lint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/bin/release" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/bin/source-highlight" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/keymap/emacs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/keymap/sublime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/keymap/vim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/lib/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/lib/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/apl/apl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/apl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/asterisk/asterisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/asterisk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/clike/clike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/clike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/clike/scala.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/clojure/clojure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/clojure/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/cobol/cobol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/cobol/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/coffeescript/coffeescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/coffeescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/commonlisp/commonlisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/commonlisp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/less.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/less_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/scss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/scss_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/css/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/cypher/cypher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/cypher/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/d/d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/diff/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/diff/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/django/django.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/django/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dockerfile/dockerfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dockerfile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dtd/dtd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dtd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dylan/dylan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/dylan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ecl/ecl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ecl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/eiffel/eiffel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/eiffel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/erlang/erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/erlang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/fortran/fortran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/fortran/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gas/gas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gfm/gfm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gfm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gfm/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gherkin/gherkin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/gherkin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/go/go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/go/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/groovy/groovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/groovy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haml/haml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haskell/haskell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haskell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haxe/haxe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/haxe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/htmlembedded/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/htmlmixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/http/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/http/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/idl/idl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/idl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/jade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/jade/jade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/javascript/json-ld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/javascript/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/javascript/typescript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/jinja2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/jinja2/jinja2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/julia/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/julia/julia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/kotlin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/kotlin/kotlin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/livescript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/livescript/livescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/lua/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/lua/lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/markdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/markdown/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/meta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/mirc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/mirc/mirc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/mllike/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/mllike/mllike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/modelica/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/modelica/modelica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/nginx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/nginx/nginx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ntriples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ntriples/ntriples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/octave/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/octave/octave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pascal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pascal/pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pegjs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pegjs/pegjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/perl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/perl/perl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/php/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/php/php.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/php/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/pig/pig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/properties/properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/puppet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/puppet/puppet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/python/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/python/python.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/q/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/q/q.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/r/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/r/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rpm/changes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rpm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rpm/rpm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rst/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rst/rst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ruby/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ruby/ruby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/ruby/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rust/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/rust/rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sass/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sass/sass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/scheme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/scheme/scheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/shell/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/shell/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/shell/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sieve/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sieve/sieve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/slim/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/slim/slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/slim/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smalltalk/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smalltalk/smalltalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smarty/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smarty/smarty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smartymixed/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/smartymixed/smartymixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/solr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/solr/solr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sparql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sparql/sparql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/sql/sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/stex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/stex/stex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/stex/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tcl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tcl/tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/textile/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/textile/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/textile/textile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiddlywiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiki/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiki/tiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tiki/tiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/toml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/toml/toml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tornado/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/tornado/tornado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/turtle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/turtle/turtle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/vb/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/vb/vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/vbscript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/vbscript/vbscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/velocity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/velocity/velocity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/verilog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/verilog/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/verilog/verilog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xml/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xquery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xquery/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/xquery/xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/yaml/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/yaml/yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/z80/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/CodeMirror/mode/z80/z80.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/langs/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codemirror/source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/pre_html/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/pre_lines/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/AbsoluteLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Arrows.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ButtonGroup.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Checkbox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ColorBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ColorButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ColorPicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ComboBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Container.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Content.Inline.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Content.Objects.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Content.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/CropRect.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/FieldSet.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/FitLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/FloatPanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/FlowLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Icons.Ie7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Iframe.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ImagePanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/InfoBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Label.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ListBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Menu.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/MenuBar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/MenuButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/MenuItem.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Notification.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Progress.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Radio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ResizeHandle.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Scrollable.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/SelectBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Slider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Spacer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/SplitButton.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/StackLayout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/TabPanel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/TextBox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Throbber.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/TinyMCE.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/ToolTip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/Window.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce-small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.dev.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.ie7.dev.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.ie7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.ie7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/config/bolt/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/config/bolt/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/config/bolt/prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/demo/html/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/demo/js/tinymce/modern/Demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/Theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/modes/Iframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/modes/Inline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/A11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/ContextToolbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/Menubar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/ProgressState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/Resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/SkinLoaded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/main/js/tinymce/modern/ui/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/src/test/browser/SidebarTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/themes/modern/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/lib/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/notification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/til-version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultra.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/account/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="73" column="98" lean-forward="true" selection-start-line="73" selection-start-column="98" selection-end-line="73" selection-end-column="98" />
+              <folding>
+                <element signature="e#1990#2009#0#HTML" expanded="true" />
+                <element signature="e#2147#2166#0#HTML" expanded="true" />
+                <element signature="e#2673#2758#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/account.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="251" selection-start-line="251" selection-end-line="251" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/content/themes/default/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/admin/account/list.php" />
+        <option value="$PROJECT_DIR$/includes/account.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="20" />
+    <option name="width" value="1910" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="" />
+      <created>1600213101129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600213101129</updated>
+      <workItem from="1600213102582" duration="6849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6849000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5295" column="4" selection-start-line="5295" selection-start-column="4" selection-end-line="5295" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/themes/default/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/account/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-674">
+          <caret line="223" column="32" selection-start-line="223" selection-start-column="32" selection-end-line="223" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/account/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="73" column="98" lean-forward="true" selection-start-line="73" selection-start-column="98" selection-end-line="73" selection-end-column="98" />
+          <folding>
+            <element signature="e#1990#2009#0#HTML" expanded="true" />
+            <element signature="e#2147#2166#0#HTML" expanded="true" />
+            <element signature="e#2673#2758#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
