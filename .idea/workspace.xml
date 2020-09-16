@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +271,7 @@
       <workItem from="1600220933653" duration="14637000" />
       <workItem from="1600236452710" duration="6464000" />
       <workItem from="1600243226941" duration="80000" />
-      <workItem from="1600243338504" duration="8194000" />
+      <workItem from="1600243338504" duration="8494000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -401,14 +399,22 @@
       <option name="project" value="LOCAL" />
       <updated>1600265448069</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add test">
+      <created>1600266060162</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600266060162</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36996000" />
+    <option name="totallyTimeSpent" value="37296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -423,7 +429,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
