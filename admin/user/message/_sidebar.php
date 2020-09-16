@@ -7,6 +7,7 @@
 		<div class="h-20"></div>
 		<div class="list-group list-group-messagebox">
 			<!-- inbox -->
+            <?php $box = 'inbox';?>
 		  	<a href="list.php?box=inbox" class="list-group-item <?php echo $box == 'inbox' ? 'active' : ''; ?>"><i class="fa fa-mail-forward fa-fw"></i>البريد الوارد</a>
 		  		<a href="list.php?box=inbox&read_it=0" class="list-group-item list-group-item-sub <?php echo @$read_it == '0' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> غير مقروء <span class="badge"><?php echo get_calc_message(array('query'=>_get_query_message('inbox-unread'))); ?></span></a>
 		  		<a href="list.php?box=inbox&read_it=1" class="list-group-item list-group-item-sub <?php echo @$read_it == '1' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> مقروء<span class="badge"><?php echo get_calc_message(array('query'=>_get_query_message('inbox-read'))); ?></span></a>

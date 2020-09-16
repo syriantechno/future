@@ -27,7 +27,7 @@ if(isset($_GET['move']) and isset($_GET['id'])) {
 			if($message->rec_u_id == get_active_user('id')) { $set = "rec_trash_u_id='".get_active_user('id')."'"; }
 
 			if($q_update = db()->query("UPDATE ".dbname('messages')." SET ".$set." WHERE id='".input_check($_GET['id'])."'")) {
-				add_alert(_b($message->title).' konulu mesaj <i class="fa fa-trash-o"></i> çöp kutusuna <span class="underline">taşındı</span>.', 'warning');
+				add_alert(_b($message->title).' موضوع الرسالة <i class="fa fa-trash-o"></i> في سلة المهملات <span class="underline">انتقل</span>.', 'warning');
 			}
 		} else {
 
@@ -35,7 +35,7 @@ if(isset($_GET['move']) and isset($_GET['id'])) {
 			if($message->rec_trash_u_id == get_active_user('id')) { $set = "rec_trash_u_id='0'"; }
 			if(@$set) {
 				if($q_update = db()->query("UPDATE ".dbname('messages')." SET ".$set." WHERE id='".input_check($_GET['id'])."'")) {
-					add_alert(_b($message->title).' konulu mesaj <i class="fa fa-trash-o"></i> çöp kutusundan <span class="underline">çıkarıldı</span>.', 'warning');
+					add_alert(_b($message->title).' موضوع الرسالة <i class="fa fa-trash-o"></i> من سلة المهملات <span class="underline">إزالة</span>.', 'warning');
 				}
 			}
 		}
@@ -51,7 +51,7 @@ if(isset($_GET['move']) and isset($_GET['id'])) {
 		if($_GET['read_it'] == '0' OR $_GET['read_it'] == '1') {
 			$read_it = input_check($_GET['read_it']);
 		} else {
-			echo get_alert('"read_it" degeri "0" veya "1" olmalı.', 'warning', false);
+			echo get_alert('"read_it" القيمة "0" أو "1" لا بد وأن.', 'warning', false);
 		}
 	}
 
@@ -92,9 +92,9 @@ $messages = get_messages($args);
 					<thead class="none">
 						<tr>
 							<th width="10"></th>
-							<th width="180"><?php echo $box == 'inbox' ? 'Gönderen' : 'Alıcı'; ?></th>
-							<th class="hidden-xs-portrait">Konu</th>
-							<th width="100">Tarih</th>
+							<th width="180"><?php echo $box == 'inbox' ? 'مرسل' : 'المتلقي'; ?></th>
+							<th class="hidden-xs-portrait">موضوع</th>
+							<th width="100">التاريخ</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -137,9 +137,9 @@ $messages = get_messages($args);
 
 							<td >
 								<?php if(!$list->read_it): ?>
-									<i class="fa fa-envelope-o mr-3" data-toggle="tooltip" title="Okunmadı!"></i>
+									<i class="fa fa-envelope-o mr-3" data-toggle="tooltip" title="غير مقروء!"></i>
 								<?php else: ?>
-									<i class="fa fa-envelope-open-o mr-3 text-muted" data-toggle="tooltip" title="Okundu"></i>
+									<i class="fa fa-envelope-open-o mr-3 text-muted" data-toggle="tooltip" title="مقروء"></i>
 								<?php endif; ?>
 
 								<a href="detail.php?id=<?php echo $list->id; ?>">
