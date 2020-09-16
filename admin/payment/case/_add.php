@@ -51,25 +51,25 @@ print_alert();
 			<div class="bank_detail bg-info padding-5 margin-bottom-15">
 				
 				<div class="form-group">
-					<label for="bank_name">Banka Adı</label>
+					<label for="bank_name">اسم البنك</label>
 					<input type="text" name="bank_name" id="bank_name" class="form-control" minlength="3" maxlength="32">
 				</div> <!-- /.form-group -->
 
 				<div class="form-group">
-					<label for="bank_admin_name">Banka Hesap Sahibi Adı</label>
+					<label for="bank_admin_name">اسم صاحب الحساب المصرفي</label>
 					<input type="text" name="bank_admin_name" id="bank_admin_name" class="form-control" minlength="3" maxlength="32">
 				</div> <!-- /.form-group -->
 
 				<div class="row space-5">
 					<div class="col-md-3">
 						<div class="form-group">
-							<label for="branch_code">Şube Kodu</label>
+							<label for="branch_code">رمز الفرع</label>
 							<input type="text" name="branch_code" id="branch_code" class="form-control" minlength="3" maxlength="32">
 						</div> <!-- /.form-group -->
 					</div> <!-- /.col-md-3 -->
 					<div class="col-md-3">
 						<div class="form-group">
-							<label for="account_no">Hesap No</label>
+							<label for="account_no">رقم الحساب</label>
 							<input type="text" name="account_no" id="account_no" class="form-control" minlength="3" maxlength="32">
 						</div> <!-- /.form-group -->
 					</div> <!-- /.col-md-3 -->
@@ -107,22 +107,22 @@ print_alert();
 			<div class="text-right">
 				<input type="hidden" name="add">
 				<input type="hidden" name="uniquetime" value="<?php uniquetime(); ?>">
-				<button class="btn btn-default">Kaydet</button>
+				<button class="btn btn-default">حفظ</button>
 			</div>
 		</form>
 	</div> <!-- /.col-lg-6 -->
 	<div class="col-lg-6 col-md-6">
 
 		<div class="panel panel-default">
-			<div class="panel-heading"><h3 class="panel-title">Kasalar</h3></div>
+			<div class="panel-heading"><h3 class="panel-title">خزائن</h3></div>
 			<div class="panel-body">
 				<?php $cases = get_case_all(array('is_bank'=>0) ); ?>
 				<?php if($cases): ?>
 					<table class="table table-hover table-condensed">
 						<thead>
 							<tr>
-								<th>Kasa Adı</th>
-								<th>Tutar</th>
+								<th>اسم الحالة</th>
+								<th>كمية</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -135,22 +135,22 @@ print_alert();
 						</tbody>
 					</table>
 				<?php else: ?>
-					<?php echo get_alert('Kasa bulunamadı.', 'warning', false); ?>
+					<?php echo get_alert('الخزنة غير موجودة.', 'warning', false); ?>
 				<?php endif; ?>
 			</div> <!-- /.panel-body -->
 		</div> <!-- /.panel -->
 
 
 		<div class="panel panel-default">
-			<div class="panel-heading"><h3 class="panel-title">Bankalar</h3></div>
+			<div class="panel-heading"><h3 class="panel-title">البنوك</h3></div>
 			<div class="panel-body">
 				<?php $banks = get_case_all(array('is_bank'=>1) ); ?>
 				<?php if($banks): ?>
 					<table class="table table-hover table-condensed">
 						<thead>
 							<tr>
-								<th>Banka Adı</th>
-								<th>Tutar</th>
+								<th>اسم البنك</th>
+								<th>كمية</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -163,7 +163,7 @@ print_alert();
 						</tbody>
 					</table>
 				<?php else: ?>
-					<?php echo get_alert('Banka bulunamadı.', 'warning', false); ?>
+					<?php echo get_alert('البنك غير موجود.', 'warning', false); ?>
 				<?php endif; ?>
 			</div> <!-- /.panel-body -->
 		</div> <!-- /.panel -->

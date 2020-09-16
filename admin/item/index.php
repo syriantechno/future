@@ -132,7 +132,7 @@ add_page_info( 'nav', array('name'=>'المواد') );
 				<?php 
 					$chart = array();
 					$chart['type'] = 'bar';
-					$chart['data']['datasets'][0]['label'] 	= 'Hareketler';
+					$chart['data']['datasets'][0]['label'] 	= 'الحركات';
 					$chart['data']['datasets'][0]['fill'] 	= true;
 					$chart['data']['datasets'][0]['lineTension'] 	= 0.1;
 					$chart['data']['datasets'][0]['borderWidth'] 	= 1;
@@ -413,7 +413,7 @@ add_page_info( 'nav', array('name'=>'المواد') );
 		$chart['options']['scales']['xAxes'][0]['ticks']['beginAtZero'] = false;
 		$chart['options']['maintainAspectRatio'] = false;
 		$chart['options']['tooltips']['callbacks']['title'] = "=TIL= function(tooltipItems, data) { return data.labels[tooltipItems[0].index] + ''; } =TIL=";
-		$chart['options']['tooltips']['callbacks']['label'] = "=TIL= function(tooltipItems, data) { return parseFloat(data.datasets[0].data[tooltipItems.index]) + ' ADET'; } =TIL=";
+		$chart['options']['tooltips']['callbacks']['label'] = "=TIL= function(tooltipItems, data) { return parseFloat(data.datasets[0].data[tooltipItems.index]) + ' العدد'; } =TIL=";
 
 		$args = array();
 		$args['height'] 	= '280';

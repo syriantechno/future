@@ -1,7 +1,7 @@
 <?php include('../../ultra.php'); ?>
 <?php get_header(); ?>
 <?php
-// sayfa bilgileri
+
 add_page_info( 'title', 'الصندوق / البنك' );
 add_page_info( 'nav', array('name'=>'الصندوق / البنك', 'url'=>get_site_url('admin/payment/') ) );
 ?>
@@ -9,17 +9,17 @@ add_page_info( 'nav', array('name'=>'الصندوق / البنك', 'url'=>get_si
 <?php if($case = get_case($_GET['status_id'])): ?>
 
 <?php
-// إذا كان لديك حالة إيغر / البنك، تحديث معلومات الصفحة
+
 add_page_info( 'title', $case->name );
 add_page_info( 'nav', array('name'=>$case->name ) );
 
-// ilk liste acilisinde sıralama yapilmasi icin
+
 if(!isset($_GET['orderby_name'])) {
 	$_GET['orderby_name'] = 'id';
 	$_GET['orderby_type'] = 'DESC'; 
 }
 
-// odeme formlarini alalim
+
 $forms = get_payments(array('_GET'=>true)); 
 
 ?>
@@ -71,8 +71,8 @@ $forms = get_payments(array('_GET'=>true));
 								// panel arama
 								$arr_s = array();
 								$arr_s['s_name'] = 'forms';
-								$arr_s['db-s-where'][] = array('name'=>'Ürün Adı', 'val'=>'name');
-								$arr_s['db-s-where'][] = array('name'=>'Ürün Kodu', 'val'=>'code');
+								$arr_s['db-s-where'][] = array('name'=>'اسم المنتج', 'val'=>'name');
+								$arr_s['db-s-where'][] = array('name'=>'كود المنتج', 'val'=>'code');
 								search_form_for_panel($arr_s); 
 							?>
 						

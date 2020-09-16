@@ -100,9 +100,9 @@ print_alert();
 			<hr />
 
 
-			<label>Bu kasada, <b><?php echo get_set_money($case->total,true); ?></b> tutarında para bulundu.</label>
+			<label>تم العثور على مبلغ من المال  <b><?php echo get_set_money($case->total,true); ?></b> في هذا الصندوق.</label>
 			<br />
-			<label>Kasayı silmek istiyor musunuz? <a href="#" class="text-danger" data-toggle="modal" data-target="#form_status_delete"><i class="fa fa-trash"></i> Evet, kasayı sil</a></label>
+			<label>هل تريد حذف الصندوق? <a href="#" class="text-danger" data-toggle="modal" data-target="#form_status_delete"><i class="fa fa-trash"></i>نعم ، احذف الصندوق</a></label>
 
 
 			<!-- Modal -->
@@ -110,7 +110,7 @@ print_alert();
 			  <form name="status_delete" id="status_delete" action="" method="GET" class="modal-dialog modal-md" role="document">
 			    <div class="modal-content panel-danger">
 			      <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title"><?php echo $case->name; ?> Kasa Sil</h4>
+			        <h4 class="modal-title"><?php echo $case->name; ?> حذف الآمن</h4>
 			      </div>
 			      <div class="modal-body">
 			        
@@ -159,7 +159,7 @@ print_alert();
 	</div> <!-- /.row -->
 
 <?php else: ?>
-	<?php echo get_alert('Form durumu bulunamadı.', 'warning', ''); ?>
+	<?php echo get_alert('لم يتم العثور على حالة النموذج.', 'warning', ''); ?>
 <?php endif ?>
 
 

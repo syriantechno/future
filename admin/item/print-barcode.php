@@ -1,8 +1,8 @@
 <?php include('../../ultra.php'); ?>
 
 <?php if(isset($_GET['id'])): ?>
-	<?php if(!$item = get_item($_GET['id'])) { exit('urun bulunamadı.'); } ?>
-<?php else: exit('urun id gerekli'); endif; ?>
+	<?php if(!$item = get_item($_GET['id'])) { exit('الصنف غير موجود.'); } ?>
+<?php else: exit('معرف المنتج مطلوب'); endif; ?>
 
 <?php
 if(!$print = get_option('item_print_barcode')) {

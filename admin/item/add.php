@@ -22,7 +22,7 @@ if(isset($_POST['add'])) {
 			header("Location: detail.php?id=".$item_id);
 		}
 	} else {
-		if(is_alert()) { // eger form_validation hata var ise ekrana basarlim
+		if(is_alert()) {
 			print_alert();
 			
 		}

@@ -330,10 +330,6 @@ function get_case($args=array()) {
 
 
 
-/**
- * update_case()
- * bir kasayı gunceller
- */
 function update_case($where, $args) {
 	if(!is_array($where)) { $where = array('id'=>$where); }
 	$where 	= _set_case_args(input_check($where));
@@ -344,7 +340,7 @@ function update_case($where, $args) {
 	$_update['add_new'] 	= false;
 
 	if(isset($_update['update']['name'])) {
-		@form_validation($_update['update']['name'], '', 'Kasa veya Banka Adı', 'required|min_length[3]|max_length[64]', __FUNCTION__);
+		@form_validation($_update['update']['name'], '', 'آمن أو اسم البنك', 'required|min_length[3]|max_length[64]', __FUNCTION__);
 	}
 	
 
@@ -359,11 +355,11 @@ function update_case($where, $args) {
 		if($case_id = update_extra($where, $_update)) {
 
 			if(@$_update['update']['val_enum']) { // is_bank
-				if($args['add_alert']) { add_alert(_b($_update['update']['name']).' banka hesabı güncellendi.', 'success', __FUNCTION__); }
-				if($args['add_log']) { add_log(array('uniquetime'=>@$args['uniquetime'], 'table_id'=>'extra:'.$case_id, 'log_key'=>__FUNCTION__, 'log_text'=>_b($_update['update']['name']).' banka hesabı güncellendi.')); }
+				if($args['add_alert']) { add_alert(_b($_update['update']['name']).' تم تحديث الحساب المصرفي.', 'success', __FUNCTION__); }
+				if($args['add_log']) { add_log(array('uniquetime'=>@$args['uniquetime'], 'table_id'=>'extra:'.$case_id, 'log_key'=>__FUNCTION__, 'log_text'=>_b($_update['update']['name']).' تم تحديث الحساب المصرفي.')); }
 			} else {
-				if($args['add_alert']) { add_alert(_b($_update['update']['name']).' kasası güncellendi.', 'success', __FUNCTION__); }
-				if($args['add_log']) { add_log(array('uniquetime'=>@$args['uniquetime'], 'table_id'=>'extra:'.$case_id, 'log_key'=>__FUNCTION__, 'log_text'=>_b($_update['update']['name']).' kasası güncellendi.')); }
+				if($args['add_alert']) { add_alert(_b($_update['update']['name']).' تم تحديث الحالة.', 'success', __FUNCTION__); }
+				if($args['add_log']) { add_log(array('uniquetime'=>@$args['uniquetime'], 'table_id'=>'extra:'.$case_id, 'log_key'=>__FUNCTION__, 'log_text'=>_b($_update['update']['name']).' تم تحديث الحالة.')); }
 			}
 			return $case_id;
 		} else { return false; }
@@ -377,10 +373,6 @@ function update_case($where, $args) {
 
 
 
-/**
- * get_case_all()
- * kasa ve bankaların hepsini dondurur
- */
 function get_case_all($args=array()) {
 	$args = _args_helper(input_check($args), 'where');
 	$args['where'] = _set_case_args($args['where']);	
@@ -434,10 +426,6 @@ function get_case_all($args=array()) {
 
 
 
-/** 
- * _set_case_args()
- * form_status fonksiyonlari gelen parametlerine veritabanı tabolarına uygun hale dönüştürür
- */
 function _set_case_args($args, $return_args=false) {
 
 	$_arr = array();
@@ -476,13 +464,9 @@ function _set_case_args($args, $return_args=false) {
 
 
 
-/** 
- * _set_case_default()
- * form status verileri icin eger yok ise default/varsayilan ogeyi secer
- */
 function _set_case_default() {
 
-	// eger varsayılan form durumu yok ise ilk degeri varsayilan yapalim
+
 	$where = array('taxonomy'=>'til_case', 'is_default'=>'default', 'is_bank'=>0);
 
 	if($query = db()->query("SELECT * FROM ".dbname('extra')." WHERE taxonomy='til_case' AND val_5='default' AND val_enum='0' ")) {
@@ -504,10 +488,6 @@ function _set_case_default() {
 
 
 
-/**
- * calc_case()
- * kasanin icindeki tum paralari hesaplar
- */
 function calc_case($case_id) {
 
 	if($case = get_case($case_id)) {
@@ -530,22 +510,3 @@ function calc_case($case_id) {
 
 	} else { return false; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

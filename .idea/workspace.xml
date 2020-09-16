@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/payment/detail2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/tree.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/tree.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/export.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/export.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/print-invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/print-invoice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/print.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/print.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user/message/list kopya.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user/message/list kopya.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user/message/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user/message/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user/task/_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user/task/_sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user/task/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user/task/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/input.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/export.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/export.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/print-barcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/print-barcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/print-barcode_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/print-barcode_price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/item/print-statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/item/print-statement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/payment/case.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payment/case.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/payment/case/_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payment/case/_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/payment/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payment/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/case/_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/case/_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/case.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/case.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +25,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/form/print-invoice.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/system/case/_detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2693">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="367">
+              <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/case.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="512" selection-start-line="512" selection-end-line="512" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/payment/detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="545" column="102" selection-start-line="545" selection-start-column="102" selection-end-line="545" selection-end-column="102" />
+              <folding>
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/payment/detail2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="184" column="108" selection-start-line="184" selection-start-column="108" selection-end-line="184" selection-end-column="116" />
+              <folding>
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+                <element signature="e#7#13#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +79,10 @@
     <findStrings>
       <find>konulu mesaj</find>
       <find>Çöp kutusuna taşı</find>
+      <find>tutarında para bulundu.</find>
+      <find>kasası güncellendi</find>
+      <find>Tarih</find>
+      <find>لا يمكن ترك حقل النص فارغا</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,6 +109,20 @@
         <option value="$PROJECT_DIR$/admin/form/export.php" />
         <option value="$PROJECT_DIR$/admin/form/print.php" />
         <option value="$PROJECT_DIR$/admin/form/print-invoice.php" />
+        <option value="$PROJECT_DIR$/admin/item/add.php" />
+        <option value="$PROJECT_DIR$/admin/item/detail.php" />
+        <option value="$PROJECT_DIR$/admin/item/export.php" />
+        <option value="$PROJECT_DIR$/admin/item/index.php" />
+        <option value="$PROJECT_DIR$/admin/item/print-barcode.php" />
+        <option value="$PROJECT_DIR$/admin/item/print-barcode_price.php" />
+        <option value="$PROJECT_DIR$/admin/item/print-statement.php" />
+        <option value="$PROJECT_DIR$/admin/payment/case.php" />
+        <option value="$PROJECT_DIR$/admin/payment/case/_add.php" />
+        <option value="$PROJECT_DIR$/admin/system/case/_detail.php" />
+        <option value="$PROJECT_DIR$/includes/case.php" />
+        <option value="$PROJECT_DIR$/admin/payment/detail1.php" />
+        <option value="$PROJECT_DIR$/admin/payment/detail2.php" />
+        <option value="$PROJECT_DIR$/admin/payment/detail.php" />
       </list>
     </option>
   </component>
@@ -106,7 +164,7 @@
               <item name="adam" type="b2602c69:ProjectViewProjectNode" />
               <item name="adam" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
+              <item name="payment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,10 +174,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tilpark-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Ampps\www\adam\admin\payment" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600213101129</updated>
       <workItem from="1600213102582" duration="7621000" />
-      <workItem from="1600220933653" duration="5601000" />
+      <workItem from="1600220933653" duration="10052000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -174,11 +238,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600225229417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed msg list lang">
+      <created>1600227351337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600227351337</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13222000" />
+    <option name="totallyTimeSpent" value="17673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -322,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/input.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret line="409" lean-forward="true" selection-start-line="409" selection-end-line="409" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/account/account.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -444,6 +508,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2693">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3781">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="523" column="4" selection-start-line="523" selection-start-column="4" selection-end-line="523" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/getJSON.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="415" column="170" selection-start-line="415" selection-start-column="170" selection-end-line="415" selection-end-column="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4699" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/print-barcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1081">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/print-barcode_price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1115">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/item/print-statement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/case.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="167" column="11" lean-forward="true" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="588" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5821" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/case/_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-823">
+          <caret line="137" column="59" selection-start-line="137" selection-start-column="59" selection-end-line="137" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/system/case/_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/case.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/detail2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="184" column="108" selection-start-line="184" selection-start-column="108" selection-end-line="184" selection-end-column="116" />
+          <folding>
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="545" column="102" selection-start-line="545" selection-start-column="102" selection-end-line="545" selection-end-column="102" />
+          <folding>
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+            <element signature="e#7#13#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

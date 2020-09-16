@@ -1,7 +1,7 @@
 <?php require_once('../../ultra.php'); ?>
 <?php 
 if(!$item = get_item($_GET['id'])) {
-	add_console_log('Ürün kartı bulunamadı.', 'print-statement.php');
+	add_console_log('بطاقة المنتج غير موجودة.', 'print-statement.php');
 }
 ?>
 <?php include_content_page('print', 'statement', 'item', array('item'=>@$item)); ?>

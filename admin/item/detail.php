@@ -194,7 +194,7 @@ add_page_info( 'nav', array('name'=>$item->name ) );
 						<?php 
 							$chart = array();
 							$chart['type'] = 'bar';
-							$chart['data']['datasets'][0]['label'] 	= 'Hareketler';
+							$chart['data']['datasets'][0]['label'] 	= 'الحركات';
 							$chart['data']['datasets'][0]['fill'] 	= true;
 							$chart['data']['datasets'][0]['lineTension'] 	= 0.1;
 							$chart['data']['datasets'][0]['borderWidth'] 	= 1;
@@ -338,7 +338,7 @@ add_page_info( 'nav', array('name'=>$item->name ) );
 													<?php endif; ?>
 												</td>
 												<td class="text-center"><?php echo $value['quantity']; ?></td>
-												<td class="text-right" width="100" data-toggle="tooltip" title="Kar/Zarar: <?php echo get_set_money($value['profit'], true); ?>"><?php echo get_set_money($value['total']); ?> <small class="text-muted"><?php echo til()->company->currency; ?></small></td>
+												<td class="text-right" width="100" data-toggle="tooltip" title="الربح والخسارة: <?php echo get_set_money($value['profit'], true); ?>"><?php echo get_set_money($value['total']); ?> <small class="text-muted"><?php echo til()->company->currency; ?></small></td>
 											</tr>
 										<?php endforeach; ?>
 									</tbody>
@@ -515,16 +515,13 @@ add_page_info( 'nav', array('name'=>$item->name ) );
 
 
 <script>
-/**
- * cal_vat()
- * إضافة منتجات وتفاصيل المنتج باحتساب مبلغ تكاليف ضريبة القيمة المضافة وأسعار البيع تظهر ل
- */
+
 function calc_vat() {
 	var p_purc 	= get_set_decimal($('#p_purc').val());
 	var p_sale 	= get_set_decimal($('#p_sale').val());
 	var p_vat 	= math_vat_rate($('#vat').val());
 
-	// degeler numeric mi? degil mi?
+
 	if(!$.isNumeric(p_purc))	{ p_purc 	= 0.00; 	}
 	if(!$.isNumeric(p_sale))	{ p_sale 	= 0.00; 	}
 	if(!$.isNumeric(p_vat))		{ p_vat 	= 0; 		}
