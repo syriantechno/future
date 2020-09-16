@@ -7,11 +7,12 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Image;
 
 use Dompdf\Dompdf;
-use Dompdf\Helpers;
 use Dompdf\Exception\ImageException;
+use Dompdf\Helpers;
 
 /**
  * Static class that resolves image urls and downloads and caches
@@ -35,7 +36,7 @@ class Cache
      * @var string
      */
     public static $broken_image = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAA3NCSVQICAjb4U/gAAAAHlBMVEWZmZn////g4OCkpKS1tbXv7++9vb2tra3m5ub5+fkFnN6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M0BrLToAAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNC8xMi8xMRPnI58AAAGZSURBVEiJhZbPasMwDMbTw2DHKhDQcbDQPsEge4BAjg0Mxh5gkBcY7Niwkpx32PvOjv9JspX60It/+fxJsqxW1b11gN11rA7N3v6vAd5nfR9fDYCTDiyzAeA6qgKd9QDNoAtsAKyKCxzAAfhdBuyHGwC3oovNvQOaxxJwnSNg3ZQFAlBy4ax7AG6ZBLrgA5Cn038SAPgREiaJHJASwXYEhEQQIACyikTTCWCBJJoANBfpPAKQdBLHFMBYkctcBKIE9lAGggt6gRjgA2GV44CL7m1WgS08fAAdsPHxyyMAIyHujgRwEldHArCKy5cBz90+gNOyf8TTyKOUQN2LPEmgnWWPcKD+sr+rnuqTK1avAcHfRSv3afTgVAbqmCPiggLtGM8aSkBNOidVjADrmIDYebT1PoGsWJEE8Oc0b96aZoe4iMBZPiADB6RAzEUA2vwRmyiAL3Lfv6MBSEmUEg7ALt/3LhxwLgj4QNw4UCbKEsaBNpPsyRbgVRASFig78BIGyJNIJQyQTwIi0RvgT98H+Mi6W67j3X8H/427u5bfpQGVAAAAAElFTkSuQmCC";
-    
+
     /**
      * Current dompdf instance
      *
@@ -46,11 +47,11 @@ class Cache
     /**
      * Resolve and fetch an image for use.
      *
-     * @param string $url       The url of the image
-     * @param string $protocol  Default protocol if none specified in $url
-     * @param string $host      Default host if none specified in $url
+     * @param string $url The url of the image
+     * @param string $protocol Default protocol if none specified in $url
+     * @param string $host Default host if none specified in $url
      * @param string $base_path Default path if none specified in $url
-     * @param Dompdf $dompdf    The Dompdf instance
+     * @param Dompdf $dompdf The Dompdf instance
      *
      * @throws ImageException
      * @return array             An array with two elements: The local path to the image and the image extension
@@ -58,7 +59,7 @@ class Cache
     static function resolve_url($url, $protocol, $host, $base_path, Dompdf $dompdf)
     {
         self::$_dompdf = $dompdf;
-        
+
         $protocol = mb_strtolower($protocol);
         $parsed_url = Helpers::explode_url($url);
         $message = null;

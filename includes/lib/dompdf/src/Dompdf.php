@@ -6,21 +6,20 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf;
 
 use DOMDocument;
 use DOMNode;
 use Dompdf\Adapter\CPDF;
-use DOMXPath;
-use Dompdf\Frame;
+use Dompdf\Css\Stylesheet;
 use Dompdf\Frame\Factory;
 use Dompdf\Frame\FrameTree;
-use HTML5_Tokenizer;
-use HTML5_TreeBuilder;
 use Dompdf\Image\Cache;
 use Dompdf\Renderer\ListBullet;
-use Dompdf\Renderer;
-use Dompdf\Css\Stylesheet;
+use DOMXPath;
+use HTML5_Tokenizer;
+use HTML5_TreeBuilder;
 
 /**
  * Dompdf - PHP5 HTML to PDF renderer
@@ -77,7 +76,7 @@ class Dompdf
      * @var string
      */
     private $version = 'dompdf';
-    
+
     /**
      * DomDocument representing the HTML document
      *
@@ -214,24 +213,24 @@ class Dompdf
     private $quirksmode = false;
 
     /**
-    * Protocol whitelist
-    *
-    * Protocols and PHP wrappers allowed in URLs. Full support is not 
-    * guarantee for the protocols/wrappers contained in this array.
-    *
-    * @var array
-    */
+     * Protocol whitelist
+     *
+     * Protocols and PHP wrappers allowed in URLs. Full support is not
+     * guarantee for the protocols/wrappers contained in this array.
+     *
+     * @var array
+     */
     private $allowedProtocols = array(null, "", "file://", "http://", "https://");
-    
+
     /**
-    * Local file extension whitelist
-    *
-    * File extensions supported by dompdf for local files.
-    *
-    * @var array
-    */
+     * Local file extension whitelist
+     *
+     * File extensions supported by dompdf for local files.
+     *
+     * @var array
+     */
     private $allowedLocalFileExtensions = array("htm", "html");
-    
+
     /**
      * @var array
      */
@@ -280,7 +279,7 @@ class Dompdf
     public function __construct($options = null)
     {
         mb_internal_encoding('UTF-8');
-        
+
         if (isset($options) && $options instanceof Options) {
             $this->setOptions($options);
         } elseif (is_array($options)) {
@@ -288,10 +287,10 @@ class Dompdf
         } else {
             $this->setOptions(new Options());
         }
-        
+
         $versionFile = realpath(__DIR__ . '/../VERSION');
         if (file_exists($versionFile) && ($version = file_get_contents($versionFile)) !== false && $version !== '$Format:<%h>$') {
-          $this->version = sprintf('dompdf %s', $version);
+            $this->version = sprintf('dompdf %s', $version);
         }
 
         $this->localeStandard = sprintf('%.1f', 1.0) == '1.0';
@@ -356,10 +355,10 @@ class Dompdf
             list($this->protocol, $this->baseHost, $this->basePath) = Helpers::explode_url($file);
         }
 
-        if ( !in_array($this->protocol, $this->allowedProtocols) ) {
+        if (!in_array($this->protocol, $this->allowedProtocols)) {
             throw new Exception("Permission denied on $file. The communication protocol is not supported.");
         }
-    
+
         if (!$this->options->isRemoteEnabled() && ($this->protocol != "" && $this->protocol !== "file://")) {
             throw new Exception("Remote file requested, but remote file download is disabled.");
         }
@@ -368,7 +367,7 @@ class Dompdf
 
             // Get the full path to $file, returns false if the file doesn't exist
             $realfile = realpath($file);
-            
+
             $chroot = $this->options->getChroot();
             if (strpos($realfile, $chroot) !== 0) {
                 throw new Exception("Permission denied on $file. The file could not be found under the directory specified by Options::chroot.");
@@ -378,7 +377,7 @@ class Dompdf
             if (!in_array($ext, $this->allowedLocalFileExtensions)) {
                 throw new Exception("Permission denied on $file.");
             }
-            
+
             if (!$realfile) {
                 throw new Exception("File '$file' not found.");
             }
@@ -744,7 +743,7 @@ class Dompdf
         if (is_array($basePageStyle->size)) {
             $this->setPaper(array(0, 0, $basePageStyle->size[0], $basePageStyle->size[1]));
         }
-        
+
         //TODO: We really shouldn't be doing this; properties were already set in the constructor. We should add Canvas methods to set the page size and orientation after instantiaion (see #1059).
         $this->setCanvas(CanvasFactory::get_instance($this, $this->paperSize, $this->paperOrientation));
         $this->setFontMetrics(new FontMetrics($this->pdf, $this->getOptions()));
@@ -998,7 +997,7 @@ class Dompdf
         $this->options->set($key, $value);
         return $this;
     }
-    
+
     /**
      * @param array $options
      * @return $this
@@ -1455,10 +1454,10 @@ class Dompdf
     {
         return $this->fontMetrics;
     }
-    
+
     /**
      * PHP5 overloaded getter
-     * Along with {@link Dompdf::__set()} __get() provides access to all 
+     * Along with {@link Dompdf::__set()} __get() provides access to all
      * properties directly.  Typically __get() is not called directly outside
      * of this class.
      *
@@ -1469,12 +1468,11 @@ class Dompdf
      */
     function __get($prop)
     {
-        switch ($prop)
-        {
+        switch ($prop) {
             case 'version' :
                 return $this->version;
             default:
-                throw new Exception( 'Invalid property: ' . $prop );
+                throw new Exception('Invalid property: ' . $prop);
         }
     }
 }

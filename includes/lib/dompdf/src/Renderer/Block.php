@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Renderer;
 
 use Dompdf\Frame;
@@ -32,10 +33,10 @@ class Block extends AbstractRenderer
 
         if ($node->nodeName === "body") {
             $h = $frame->get_containing_block("h") - $style->length_in_pt(array(
-                        $style->margin_top,
-                        $style->border_top_width,
-                        $style->border_bottom_width,
-                        $style->margin_bottom),
+                    $style->margin_top,
+                    $style->border_top_width,
+                    $style->border_bottom_width,
+                    $style->margin_bottom),
                     $style->width);
         }
 

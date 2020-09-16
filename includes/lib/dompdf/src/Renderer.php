@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf;
 
 use Dompdf\Renderer\AbstractRenderer;
@@ -14,8 +15,6 @@ use Dompdf\Renderer\ListBullet;
 use Dompdf\Renderer\TableCell;
 use Dompdf\Renderer\TableRowGroup;
 use Dompdf\Renderer\Text;
-
-use Dompdf\Frame;
 
 /**
  * Concrete renderer
@@ -213,7 +212,7 @@ class Renderer extends AbstractRenderer
      * gets triggered on a frame
      *
      * @param string $event the type of event
-     * @param Frame $frame  the frame that event is triggered on
+     * @param Frame $frame the frame that event is triggered on
      */
     protected function _check_callbacks($event, $frame)
     {

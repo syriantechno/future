@@ -5,9 +5,8 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
-namespace Dompdf;
 
-use Dompdf\Frame;
+namespace Dompdf;
 
 /**
  * Embeds Javascript into the PDF document

@@ -6,11 +6,12 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameReflower;
 
-use Dompdf\Helpers;
 use Dompdf\FrameDecorator\Block as BlockFrameDecorator;
 use Dompdf\FrameDecorator\Image as ImageFrameDecorator;
+use Dompdf\Helpers;
 
 /**
  * Image reflower class
@@ -36,7 +37,7 @@ class Image extends AbstractFrameReflower
         //if ($frame->get_style()->float !== "none" ) {
         //  $page->add_floating_frame($this);
         //}
-        
+
         // Set the frame's width
         $this->get_min_max_width();
 

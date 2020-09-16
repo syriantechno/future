@@ -1,4 +1,5 @@
 <?php
+
 namespace Dompdf;
 
 class Helpers
@@ -35,7 +36,7 @@ class Helpers
         flush();
     }
 
-      /**
+    /**
      * builds a full url given a protocol, hostname, base path and url
      *
      * @param string $protocol
@@ -311,7 +312,7 @@ class Helpers
         $file = "";
 
         $arr = parse_url($url);
-        if ( isset($arr["scheme"]) ) {
+        if (isset($arr["scheme"])) {
             $arr["scheme"] = mb_strtolower($arr["scheme"]);
         }
 
@@ -458,11 +459,11 @@ class Helpers
             return chr(0xC0 | $c >> 6) . chr(0x80 | $c & 0x3F);
         } else if ($c <= 0xFFFF) {
             return chr(0xE0 | $c >> 12) . chr(0x80 | $c >> 6 & 0x3F)
-            . chr(0x80 | $c & 0x3F);
+                . chr(0x80 | $c & 0x3F);
         } else if ($c <= 0x10FFFF) {
             return chr(0xF0 | $c >> 18) . chr(0x80 | $c >> 12 & 0x3F)
-            . chr(0x80 | $c >> 6 & 0x3F)
-            . chr(0x80 | $c & 0x3F);
+                . chr(0x80 | $c >> 6 & 0x3F)
+                . chr(0x80 | $c & 0x3F);
         }
         return false;
     }
@@ -521,9 +522,9 @@ class Helpers
         // Custom types
         $types = array(
             IMAGETYPE_JPEG => "jpeg",
-            IMAGETYPE_GIF  => "gif",
-            IMAGETYPE_BMP  => "bmp",
-            IMAGETYPE_PNG  => "png",
+            IMAGETYPE_GIF => "gif",
+            IMAGETYPE_BMP => "bmp",
+            IMAGETYPE_PNG => "png",
         );
 
         $type = isset($types[$type]) ? $types[$type] : null;
@@ -536,8 +537,7 @@ class Helpers
                 $width = (int)$meta['width'];
                 $height = (int)$meta['height'];
                 $type = "bmp";
-            }
-            else {
+            } else {
                 if (strpos(file_get_contents($filename), "<svg") !== false) {
                     $doc = new \Svg\Document();
                     $doc->loadFile($filename);

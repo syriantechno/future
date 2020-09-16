@@ -5,15 +5,16 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameReflower;
 
 use Dompdf\Adapter\CPDF;
 use Dompdf\Css\Style;
 use Dompdf\Dompdf;
-use Dompdf\Helpers;
 use Dompdf\Frame;
-use Dompdf\FrameDecorator\Block;
 use Dompdf\Frame\Factory;
+use Dompdf\FrameDecorator\Block;
+use Dompdf\Helpers;
 
 /**
  * Base reflower class
@@ -245,7 +246,9 @@ abstract class AbstractFrameReflower
 
         // Convert escaped hex characters into ascii characters (e.g. \A => newline)
         $string = preg_replace_callback("/\\\\([0-9a-fA-F]{0,6})/",
-            function ($matches) { return \Dompdf\Helpers::unichr(hexdec($matches[1])); },
+            function ($matches) {
+                return \Dompdf\Helpers::unichr(hexdec($matches[1]));
+            },
             $string);
         return $string;
     }

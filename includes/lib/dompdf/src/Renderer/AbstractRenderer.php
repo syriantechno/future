@@ -7,14 +7,15 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Renderer;
 
 use Dompdf\Adapter\CPDF;
 use Dompdf\Css\Color;
 use Dompdf\Css\Style;
 use Dompdf\Dompdf;
-use Dompdf\Helpers;
 use Dompdf\Frame;
+use Dompdf\Helpers;
 use Dompdf\Image\Cache;
 
 /**
@@ -64,12 +65,12 @@ abstract class AbstractRenderer
     /**
      * Render a background image over a rectangular area
      *
-     * @param string $url   The background image to load
-     * @param float $x      The left edge of the rectangular area
-     * @param float $y      The top edge of the rectangular area
-     * @param float $width  The width of the rectangular area
+     * @param string $url The background image to load
+     * @param float $x The left edge of the rectangular area
+     * @param float $y The top edge of the rectangular area
+     * @param float $width The width of the rectangular area
      * @param float $height The height of the rectangular area
-     * @param Style $style  The associated Style object
+     * @param Style $style The associated Style object
      *
      * @throws \Exception
      */

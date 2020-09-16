@@ -5,10 +5,9 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf;
 
-use Dompdf\Exception;
-use Dompdf\Frame;
 use Dompdf\FrameDecorator\Table as TableFrameDecorator;
 use Dompdf\FrameDecorator\TableCell as TableCellFrameDecorator;
 
@@ -28,16 +27,16 @@ class Cellmap
      * @var array
      */
     protected static $_BORDER_STYLE_SCORE = array(
-        "inset"  => 1,
+        "inset" => 1,
         "groove" => 2,
         "outset" => 3,
-        "ridge"  => 4,
+        "ridge" => 4,
         "dotted" => 5,
         "dashed" => 6,
-        "solid"  => 7,
+        "solid" => 7,
         "double" => 8,
         "hidden" => 9,
-        "none"   => 0,
+        "none" => 0,
     );
 
     /**
@@ -228,13 +227,13 @@ class Cellmap
     {
         if (!isset($this->_columns[$i])) {
             $this->_columns[$i] = array(
-                "x"          => 0,
-                "min-width"  => 0,
-                "max-width"  => 0,
+                "x" => 0,
+                "min-width" => 0,
+                "max-width" => 0,
                 "used-width" => null,
-                "absolute"   => 0,
-                "percent"    => 0,
-                "auto"       => true,
+                "absolute" => 0,
+                "percent" => 0,
+                "auto" => true,
             );
         }
 
@@ -258,9 +257,9 @@ class Cellmap
     {
         if (!isset($this->_rows[$j])) {
             $this->_rows[$j] = array(
-                "y"            => 0,
+                "y" => 0,
                 "first-column" => 0,
-                "height"       => null,
+                "height" => null,
             );
         }
 
@@ -301,10 +300,10 @@ class Cellmap
     public function get_border_properties($i, $j)
     {
         return array(
-            "top"    => $this->get_border($i, $j, "horizontal"),
-            "right"  => $this->get_border($i, $j + 1, "vertical"),
+            "top" => $this->get_border($i, $j, "horizontal"),
+            "right" => $this->get_border($i, $j + 1, "vertical"),
             "bottom" => $this->get_border($i + 1, $j, "horizontal"),
-            "left"   => $this->get_border($i, $j, "vertical"),
+            "left" => $this->get_border($i, $j, "vertical"),
         );
     }
 
@@ -476,7 +475,7 @@ class Cellmap
             return $this->_borders[$i][$j][$h_v]["width"];
         }
 
-        $border = & $this->_borders[$i][$j][$h_v];
+        $border = &$this->_borders[$i][$j][$h_v];
 
         $o_width = $border["width"];
         $o_style = $border["style"];
@@ -741,7 +740,7 @@ class Cellmap
 
                     $this->_cells[$r][$c] = null;
                     unset($this->_cells[$r][$c]);
-                    
+
                     // has multiple rows?
                     if (isset($this->_frames[$id]) && count($this->_frames[$id]["rows"]) > 1) {
                         // remove just the desired row, but leave the frame
@@ -789,7 +788,7 @@ class Cellmap
     /**
      * Update a row group after rows have been removed
      *
-     * @param Frame $group    The group to update
+     * @param Frame $group The group to update
      * @param Frame $last_row The last row in the row group
      */
     public function update_row_group(Frame $group, Frame $last_row)

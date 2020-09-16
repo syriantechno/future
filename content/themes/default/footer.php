@@ -1,6 +1,6 @@
 </main>
 <footer class="text-center">
-<?php echo sure_bitir(); ?> ثانية - <?php echo convert_bayt(memory_get_usage()); ?>  
+    <?php echo sure_bitir(); ?> ثانية - <?php echo convert_bayt(memory_get_usage()); ?>
 </footer>
 
 <?php alert_form_element(); ?>

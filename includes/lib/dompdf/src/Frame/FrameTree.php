@@ -4,11 +4,9 @@ namespace Dompdf\Frame;
 
 use DOMDocument;
 use DOMNode;
-use DOMXPath;
-
 use Dompdf\Exception;
 use Dompdf\Frame;
-use Dompdf\FrameDecorator\Page;
+use DOMXPath;
 
 /**
  * @package dompdf
@@ -173,8 +171,9 @@ class FrameTree
             $tbody->appendChild($row);
         }
     }
-    
+
     // FIXME: temporary hack, preferably we will improve rendering of sequential #text nodes
+
     /**
      * Remove a child from a node
      *
@@ -192,10 +191,9 @@ class FrameTree
         $nextChild = $child->nextSibling;
         $node->removeChild($child);
         if (isset($previousChild, $nextChild)) {
-            if ($previousChild->nodeName === "#text" && $nextChild->nodeName === "#text")
-            {
+            if ($previousChild->nodeName === "#text" && $nextChild->nodeName === "#text") {
                 $previousChild->nodeValue .= $nextChild->nodeValue;
-                $this->_remove_node($node, $children, $index+1);
+                $this->_remove_node($node, $children, $index + 1);
             }
         }
         array_splice($children, $index, 1);
@@ -222,7 +220,7 @@ class FrameTree
         if (!$node->hasChildNodes()) {
             return $frame;
         }
-        
+
         // Store the children in an array so that the tree can be modified
         $children = array();
         $length = $node->childNodes->length;
@@ -234,7 +232,7 @@ class FrameTree
         while ($index < count($children)) {
             $child = $children[$index];
             $nodeName = strtolower($child->nodeName);
-            
+
             // Skip non-displaying nodes
             if (in_array($nodeName, self::$HIDDEN_TAGS)) {
                 if ($nodeName !== "head" && $nodeName !== "style") {
@@ -254,7 +252,7 @@ class FrameTree
                 $this->_remove_node($node, $children, $index);
                 continue;
             }
-       
+
             if (is_object($child)) {
                 $frame->append_child($this->_build_tree_r($child), false);
             }

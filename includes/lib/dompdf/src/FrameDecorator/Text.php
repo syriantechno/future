@@ -7,13 +7,12 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameDecorator;
 
 use Dompdf\Dompdf;
-use Dompdf\Frame;
 use Dompdf\Exception;
-use DOMText;
-use Dompdf\FontMetrics;
+use Dompdf\Frame;
 
 /**
  * Decorates Frame objects for text layout

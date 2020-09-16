@@ -5,9 +5,9 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf;
 
-use Dompdf\Frame;
 use Dompdf\FrameDecorator\Block;
 use Dompdf\FrameDecorator\Page;
 

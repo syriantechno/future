@@ -49,7 +49,7 @@ if (isset($_GET['process'])) {
             $msg = 'تم استعادة قاعدة البيانات بنجاح الرجاء التاكد من البيانات';
             break;
         case 'upload':
-            $msg= 'تم رفع قاعدة البيانات الى السيرفر بنجاح';
+            $msg = 'تم رفع قاعدة البيانات الى السيرفر بنجاح';
             break;
         default:
             $class = 'hide';
@@ -60,14 +60,14 @@ if (isset($_GET['process'])) {
     <strong class="text-center" style="width: auto;display: block;"><?php echo $msg; ?></strong><br>
 <?php endif; ?>
 <?php
-    if (isset($_POST['submit'])) {
+if (isset($_POST['submit'])) {
     $db = 'database_' . _dbName . '.sql';
     $target_path = 'backup';
     move_uploaded_file($_FILES["file"]["tmp_name"], $db);
     $msge = 'تم رفع قاعدة البيانات الى السيرفر بنجاح <a href=index.php?process=restore>اضغط هنا للاستعادة</a> !';
     echo "<strong class='col-md-12 text-center' > $msge </strong><br>";
-    }
-    ?>
+}
+?>
     <div class="col-md-12 text-center">
         <br>
         <a href="index.php?process=backup">

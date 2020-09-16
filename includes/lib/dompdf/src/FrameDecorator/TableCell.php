@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameDecorator;
 
 use Dompdf\Dompdf;
@@ -55,11 +56,11 @@ class TableCell extends BlockFrameDecorator
     {
         $style = $this->get_style();
         $v_space = $style->length_in_pt(array($style->margin_top,
-                $style->padding_top,
-                $style->border_top_width,
-                $style->border_bottom_width,
-                $style->padding_bottom,
-                $style->margin_bottom),
+            $style->padding_top,
+            $style->border_top_width,
+            $style->border_bottom_width,
+            $style->padding_bottom,
+            $style->margin_bottom),
             $style->width);
 
         $new_height = $height - $v_space;

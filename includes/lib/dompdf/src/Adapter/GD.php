@@ -6,12 +6,13 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Adapter;
 
 use Dompdf\Canvas;
 use Dompdf\Dompdf;
-use Dompdf\Image\Cache;
 use Dompdf\Helpers;
+use Dompdf\Image\Cache;
 
 /**
  * Image rendering interface
@@ -400,7 +401,7 @@ class GD implements Canvas
                 }
             }
 
-            if(!empty($gd_style)) {
+            if (!empty($gd_style)) {
                 imagesetstyle($this->get_image(), $gd_style);
                 $c = IMG_COLOR_STYLED;
             }
@@ -454,7 +455,7 @@ class GD implements Canvas
                 }
             }
 
-            if(!empty($gd_style)) {
+            if (!empty($gd_style)) {
                 imagesetstyle($this->get_image(), $gd_style);
                 $c = IMG_COLOR_STYLED;
             }
@@ -596,7 +597,7 @@ class GD implements Canvas
                 }
             }
 
-            if(!empty($gd_style)) {
+            if (!empty($gd_style)) {
                 imagesetstyle($this->get_image(), $gd_style);
                 $c = IMG_COLOR_STYLED;
             }
@@ -646,7 +647,7 @@ class GD implements Canvas
                 }
             }
 
-            if(!empty($gd_style)) {
+            if (!empty($gd_style)) {
                 imagesetstyle($this->get_image(), $gd_style);
                 $c = IMG_COLOR_STYLED;
             }
@@ -969,9 +970,9 @@ class GD implements Canvas
         $fallbackfilename = mb_convert_encoding($filename, "ISO-8859-1", $encoding);
         $encodedfallbackfilename = rawurlencode($fallbackfilename);
         $encodedfilename = rawurlencode($filename);
-        
-        header("Content-Disposition: $attach; filename=". $encodedfallbackfilename ."; filename*=UTF-8''$encodedfilename");
-        
+
+        header("Content-Disposition: $attach; filename=" . $encodedfallbackfilename . "; filename*=UTF-8''$encodedfilename");
+
         switch ($type) {
 
             case "jpg":

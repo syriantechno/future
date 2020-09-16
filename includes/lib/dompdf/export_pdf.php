@@ -5,6 +5,7 @@ date_default_timezone_set('UTC');
 require_once 'autoload.inc.php';
 
 $html = ob_get_clean();
+
 // reference the Dompdf namespace
 use Dompdf\Dompdf;
 

@@ -64,7 +64,7 @@ if (isset($_POST['add'])) {
                     <div class="col-xs-6 col-md-4">
                         <div class="form-group">
                             <label for="name"> اسم المستفيد <sup class="text-muted"> الاسم او اللقب
-                                     </sup></label>
+                                </sup></label>
                             <input type="text" name="name" id="name" value="<?php echo @$_POST['name']; ?>"
                                    class="form-control required" maxlength="128">
                         </div>
@@ -80,7 +80,8 @@ if (isset($_POST['add'])) {
                         <div class="form-group">
                             <label for="DateofBirth">تاريخ الميلاد</label>
                             <input type="date" name="DateofBirth" id="DateofBirth"
-                                   value="<?php echo @$_POST['DateofBirth']; ?>" class="form-control input-sm bootstrap-datetimepicker-widget" maxlength="128">
+                                   value="<?php echo @$_POST['DateofBirth']; ?>"
+                                   class="form-control input-sm bootstrap-datetimepicker-widget" maxlength="128">
                         </div>
                     </div>
                 </div>
@@ -124,11 +125,11 @@ if (isset($_POST['add'])) {
                     <div class="col-xs-6 col-md-4">
                         <div class="form-group">
                             <label for="sex"> الجنس </label>
-                             <select  name="sex" id="sex" value="<?php echo @$_POST['sex']; ?>"
-                                     class="form-control select" maxlength="25">
+                            <select name="sex" id="sex" value="<?php echo @$_POST['sex']; ?>"
+                                    class="form-control select" maxlength="25">
                                 <option value="ذكر">ذكر</option>
                                 <option value="انثى">انثى</option>
-                             </select>
+                            </select>
                         </div>
                     </div>
                     <div class="col-xs-6 col-md-4">
@@ -143,8 +144,8 @@ if (isset($_POST['add'])) {
 
             </div>
 
-                <div class="col-md-6">
-                    <div class="row">
+            <div class="col-md-6">
+                <div class="row">
                     <div class="col-xs-6 col-md-4">
                         <div class="form-group">
                             <label for="address">العنوان</label>
@@ -157,8 +158,8 @@ if (isset($_POST['add'])) {
                     <div class="col-xs-6 col-md-4">
                         <div class="form-group">
                             <label for="district">الحالة الاجتماعية</label>
-                            <select  name="district" id="district" value="<?php echo @$_POST['district']; ?>"
-                                   class="form-control select" maxlength="25">
+                            <select name="district" id="district" value="<?php echo @$_POST['district']; ?>"
+                                    class="form-control select" maxlength="25">
                                 <option value="اعزب">اعزب</option>
                                 <option value="عزباء">عزباء</option>
                                 <option value="متزوج">متزوج</option>
@@ -171,67 +172,65 @@ if (isset($_POST['add'])) {
                             </select>
                         </div>
                     </div>
-                    </div>
+                </div>
 
                 <div class="row">
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group">
-                                <label for="job">المهنة</label>
-                                <input type="text" name="job" id="job" value="<?php echo @$_POST['job']; ?>"
-                                       class="form-control" maxlength="25">
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group country_selected">
-                                <label for="country">الدولة</label>
-                                <?php echo list_selectbox(get_country_array(), array('name' => 'country', 'selected' => 'SYRIAN ARAB REPUBLIC', 'class' => 'form-control select select-account')); ?>
-                            </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <label for="job">المهنة</label>
+                            <input type="text" name="job" id="job" value="<?php echo @$_POST['job']; ?>"
+                                   class="form-control" maxlength="25">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group">
-                                <label for="needsomeone">المرافق</label>
-                                <select type="text" name="needsomeone" id="needsomeone" value="<?php echo @$_POST['needsomeone']; ?>"
-                                       class="form-control select" maxlength="25">
-                                    <option value="لايحتاج مرافق">لايحتاج مرافق</option>
-                                    <option value="يحتاج مرافق">يحتاج مرافق</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group country_selected">
-                                <label for="famelynum">عدد افراد الاسرة</label>
-                                <input type="tel" name="famelynum" id="famelynum" value="<?php echo @$_POST['famelynum']; ?>"
-                                       class="form-control" maxlength="25">
-                            </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group country_selected">
+                            <label for="country">الدولة</label>
+                            <?php echo list_selectbox(get_country_array(), array('name' => 'country', 'selected' => 'SYRIAN ARAB REPUBLIC', 'class' => 'form-control select select-account')); ?>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group country_selected">
-                                <label for="living">الحالة</label>
-                                <input type="text" name="living" id="living" value="<?php echo @$_POST['living']; ?>"
-                                       class="form-control" maxlength="255">
-
-
-
-
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <div class="form-group country_selected">
-                                <label for="note">ملاحظات</label>
-                                <input type="text" name="note" id="note" value="<?php echo @$_POST['note']; ?>"
-                                       class="form-control" maxlength="255">
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <label for="needsomeone">المرافق</label>
+                            <select type="text" name="needsomeone" id="needsomeone"
+                                    value="<?php echo @$_POST['needsomeone']; ?>"
+                                    class="form-control select" maxlength="25">
+                                <option value="لايحتاج مرافق">لايحتاج مرافق</option>
+                                <option value="يحتاج مرافق">يحتاج مرافق</option>
+                            </select>
                         </div>
                     </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group country_selected">
+                            <label for="famelynum">عدد افراد الاسرة</label>
+                            <input type="tel" name="famelynum" id="famelynum"
+                                   value="<?php echo @$_POST['famelynum']; ?>"
+                                   class="form-control" maxlength="25">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group country_selected">
+                            <label for="living">الحالة</label>
+                            <input type="text" name="living" id="living" value="<?php echo @$_POST['living']; ?>"
+                                   class="form-control" maxlength="255">
 
 
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div class="form-group country_selected">
+                            <label for="note">ملاحظات</label>
+                            <input type="text" name="note" id="note" value="<?php echo @$_POST['note']; ?>"
+                                   class="form-control" maxlength="255">
+                        </div>
+                    </div>
+                </div>
 
 
-        </div>
+            </div>
 
         </div>
 

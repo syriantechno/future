@@ -7,13 +7,14 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Css;
 
 use Dompdf\Adapter\CPDF;
 use Dompdf\Exception;
-use Dompdf\Helpers;
 use Dompdf\FontMetrics;
 use Dompdf\Frame;
+use Dompdf\Helpers;
 
 /**
  * Represents CSS properties.
@@ -1277,7 +1278,7 @@ class Style
         $color = $this->__get("border_" . $side . "_color");
 
         return $this->__get("border_" . $side . "_width") . " " .
-        $this->__get("border_" . $side . "_style") . " " . $color["hex"];
+            $this->__get("border_" . $side . "_style") . " " . $color["hex"];
     }
 
     /**#@+
@@ -2268,6 +2269,7 @@ class Style
 
         $this->_props["size"] = $computed;
     }
+
     /**
      * Gets the CSS3 transform property
      *
@@ -2429,14 +2431,15 @@ class Style
      * @link http://www.w3.org/TR/css3-2d-transforms/#transform-origin
      * @return mixed[]
      */
-    function get_transform_origin() {
+    function get_transform_origin()
+    {
         $values = preg_split("/\s+/", $this->_props['transform_origin']);
 
         if (count($values) === 0) {
             $values = preg_split("/\s+/", self::$_defaults["transform_origin"]);
         }
 
-        $values = array_map(function($value) {
+        $values = array_map(function ($value) {
             if (in_array($value, array("top", "left"))) {
                 return 0;
             } else if (in_array($value, array("bottom", "right"))) {

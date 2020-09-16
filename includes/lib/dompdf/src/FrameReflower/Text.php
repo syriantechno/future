@@ -6,11 +6,12 @@
  * @author  Fabien Ménager <fabien.menager@gmail.com>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameReflower;
 
+use Dompdf\FontMetrics;
 use Dompdf\FrameDecorator\Block as BlockFrameDecorator;
 use Dompdf\FrameDecorator\Text as TextFrameDecorator;
-use Dompdf\FontMetrics;
 
 /**
  * Reflows text frames.
@@ -401,7 +402,7 @@ class Text extends AbstractFrameReflower
                 // yes I took the time to bench it ;)
                 $words = array_flip(preg_split("/[\s-]+/u", $str, -1, PREG_SPLIT_DELIM_CAPTURE));
                 $root = $this;
-                array_walk($words, function(&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
+                array_walk($words, function (&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
                     $val = $root->getFontMetrics()->getTextWidth($str, $font, $size, $word_spacing, $char_spacing);
                 });
 
@@ -412,7 +413,7 @@ class Text extends AbstractFrameReflower
             case "pre":
                 $lines = array_flip(preg_split("/\n/u", $str));
                 $root = $this;
-                array_walk($lines, function(&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
+                array_walk($lines, function (&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
                     $val = $root->getFontMetrics()->getTextWidth($str, $font, $size, $word_spacing, $char_spacing);
                 });
 
@@ -442,7 +443,7 @@ class Text extends AbstractFrameReflower
                 // Find the longest word (i.e. minimum length)
                 $lines = array_flip(preg_split("/\n/", $text));
                 $root = $this;
-                array_walk($lines, function(&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
+                array_walk($lines, function (&$val, $str) use ($font, $size, $word_spacing, $char_spacing, $root) {
                     $val = $root->getFontMetrics()->getTextWidth($str, $font, $size, $word_spacing, $char_spacing);
                 });
                 arsort($lines);

@@ -97,8 +97,8 @@ class FontMetrics
             $cacheData .= sprintf("  '%s' => array(%s", addslashes($family), PHP_EOL);
             foreach ($variants as $variant => $path) {
                 $path = sprintf("'%s'", $path);
-                $path = str_replace('\'' . $this->getOptions()->getFontDir() , '$fontDir . \'' , $path);
-                $path = str_replace('\'' . $this->getOptions()->getRootDir() , '$rootDir . \'' , $path);
+                $path = str_replace('\'' . $this->getOptions()->getFontDir(), '$fontDir . \'', $path);
+                $path = str_replace('\'' . $this->getOptions()->getRootDir(), '$rootDir . \'', $path);
                 $cacheData .= sprintf("    '%s' => %s,%s", $variant, $path, PHP_EOL);
             }
             $cacheData .= sprintf("  ),%s", PHP_EOL);
@@ -124,15 +124,19 @@ class FontMetrics
     {
         $fontDir = $this->getOptions()->getFontDir();
         $rootDir = $this->getOptions()->getRootDir();
-        
+
         // FIXME: tempoarary define constants for cache files <= v0.6.2
-        if (!defined("DOMPDF_DIR")) { define("DOMPDF_DIR", $rootDir); }
-        if (!defined("DOMPDF_FONT_DIR")) { define("DOMPDF_FONT_DIR", $fontDir); }
-        
+        if (!defined("DOMPDF_DIR")) {
+            define("DOMPDF_DIR", $rootDir);
+        }
+        if (!defined("DOMPDF_FONT_DIR")) {
+            define("DOMPDF_FONT_DIR", $fontDir);
+        }
+
 
         $file = $rootDir . "/lib/fonts/dompdf_font_family_cache.dist.php";
         $distFonts = require $file;
-        
+
         // FIXME: temporary step for font cache created before the font cache fix
         if (is_readable($fontDir . DIRECTORY_SEPARATOR . "dompdf_font_family_cache")) {
             $oldFonts = require $fontDir . DIRECTORY_SEPARATOR . "dompdf_font_family_cache";
@@ -144,26 +148,26 @@ class FontMetrics
             }
             $distFonts += $oldFonts;
         }
-        
+
         if (!is_readable($this->getCacheFile())) {
             $this->fontLookup = $distFonts;
             return;
         }
-        
+
         $cacheData = require $this->getCacheFile();
-        
+
         // If the font family cache is still in the old format
         if ($cacheData === 1) {
             $cacheData = file_get_contents($this->getCacheFile());
             file_put_contents($this->getCacheFile(), "<" . "?php return $cacheData ?" . ">");
             $this->fontLookup = require $this->getCacheFile();
         }
-        
+
         $this->fontLookup = array();
         foreach ($cacheData as $key => $value) {
             $this->fontLookup[stripslashes($key)] = $value;
         }
-        
+
         // Merge provided fonts
         $this->fontLookup += $distFonts;
     }
@@ -233,41 +237,41 @@ class FontMetrics
 
         $styleString = $this->getType("{$style['weight']} {$style['style']}");
 
-        if ( !isset($entry[$styleString]) ) {
+        if (!isset($entry[$styleString])) {
             $entry[$styleString] = $cacheEntry;
-            
+
             // Download the remote file
             $remoteFileContent = @file_get_contents($remoteFile, null, $context);
             if (false === $remoteFileContent) {
                 return false;
             }
             file_put_contents($localTempFile, $remoteFileContent);
-            
+
             $font = Font::load($localTempFile);
-            
+
             if (!$font) {
                 unlink($localTempFile);
                 return false;
             }
-            
+
             $font->parse();
             $font->saveAdobeFontMetrics("$cacheEntry.ufm");
             $font->close();
-            
+
             unlink($localTempFile);
-            
-            if ( !file_exists("$cacheEntry.ufm") ) {
+
+            if (!file_exists("$cacheEntry.ufm")) {
                 return false;
             }
-            
+
             // Save the changes
             file_put_contents($localFile, file_get_contents($remoteFile, null, $context));
-            
-            if ( !file_exists($localFile) ) {
+
+            if (!file_exists($localFile)) {
                 unlink("$cacheEntry.ufm");
                 return false;
             }
-            
+
             $this->setFontFamily($fontname, $entry);
             $this->saveFontFamilies();
         }
@@ -295,7 +299,7 @@ class FontMetrics
      *
      * @param string $text the text to be sized
      * @param string $font the desired font
-     * @param float $size  the desired font size
+     * @param float $size the desired font size
      * @param float $wordSpacing
      * @param float $charSpacing
      *

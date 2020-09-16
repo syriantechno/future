@@ -5,9 +5,8 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
-namespace Dompdf;
 
-use Dompdf\Frame;
+namespace Dompdf;
 
 /**
  * Executes inline PHP code during the rendering process

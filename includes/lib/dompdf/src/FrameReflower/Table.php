@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameReflower;
 
 use Dompdf\FrameDecorator\Block as BlockFrameDecorator;
@@ -84,10 +85,10 @@ class Table extends AbstractFrameReflower
 
         if (!$centered) {
             $delta += $style->length_in_pt(array(
-                    $style->padding_left,
-                    $style->border_left_width,
-                    $style->border_right_width,
-                    $style->padding_right),
+                $style->padding_left,
+                $style->border_left_width,
+                $style->border_right_width,
+                $style->padding_right),
                 $cb["w"]);
         }
 

@@ -1,9 +1,9 @@
 // InfoBox
 
 .@{prefix}-infobox {
-	.inline-block();
-	text-shadow: @text-shadow;
-	overflow: hidden;
+  .inline-block();
+  text-shadow: @text-shadow;
+  overflow: hidden;
   border: 1px solid red;
 
   div {
@@ -12,13 +12,14 @@
 
     button {
       position: absolute;
-      top: 50%; right: 4px;
+      top: 50%;
+      right: 4px;
       cursor: pointer;
       margin-top: -8px;
       display: none;
     }
 
-		button:focus {
+    button:focus {
       outline: 2px solid @btn-border-hover;
     }
   }
@@ -65,7 +66,7 @@
 
 .@{prefix}-rtl .@{prefix}-infobox {
   div {
-  	text-align: right;
-  	direction: rtl;
+    text-align: right;
+    direction: rtl;
   }
 }

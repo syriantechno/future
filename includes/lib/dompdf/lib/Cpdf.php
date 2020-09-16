@@ -15,8 +15,9 @@
  * @license Public Domain http://creativecommons.org/licenses/publicdomain/
  * @package Cpdf
  */
-use FontLib\Font;
+
 use FontLib\BinaryStream;
+use FontLib\Font;
 
 
 class Cpdf
@@ -331,15 +332,15 @@ class Cpdf
      * Class constructor
      * This will start a new document
      *
-     * @param array   $pageSize  Array of 4 numbers, defining the bottom left and upper right corner of the page. first two are normally zero.
+     * @param array $pageSize Array of 4 numbers, defining the bottom left and upper right corner of the page. first two are normally zero.
      * @param boolean $isUnicode Whether text will be treated as Unicode or not.
-     * @param string  $fontcache The font cache folder
-     * @param string  $tmp       The temporary folder
+     * @param string $fontcache The font cache folder
+     * @param string $tmp The temporary folder
      */
     function __construct($pageSize = array(0, 0, 612, 792), $isUnicode = false, $fontcache = '', $tmp = '')
     {
         $this->isUnicode = $isUnicode;
-        $this->fontcache = rtrim($fontcache, DIRECTORY_SEPARATOR."/\\");
+        $this->fontcache = rtrim($fontcache, DIRECTORY_SEPARATOR . "/\\");
         $this->tmp = ($tmp !== '' ? $tmp : sys_get_temp_dir());
         $this->newDocument($pageSize);
 
@@ -495,7 +496,7 @@ class Cpdf
                     if (is_string($v)) {
                         $v = '/' . $v;
                     } elseif (is_int($v)) {
-                        $v = (string) $v;
+                        $v = (string)$v;
                     } elseif (is_bool($v)) {
                         $v = ($v ? 'true' : 'false');
                     } elseif (is_array($v)) {
@@ -764,11 +765,11 @@ class Cpdf
         switch ($action) {
             case 'new':
                 $this->objects[$id] = array(
-                    't'    => 'font',
+                    't' => 'font',
                     'info' => array(
-                        'name'         => $options['name'],
+                        'name' => $options['name'],
                         'fontFileName' => $options['fontFileName'],
-                        'SubType'      => 'Type1'
+                        'SubType' => 'Type1'
                     )
                 );
                 $fontNum = $this->numFonts;
@@ -1225,9 +1226,9 @@ EOT;
                 $this->infoObject = $id;
                 $date = 'D:' . @date('Ymd');
                 $this->objects[$id] = array(
-                    't'    => 'info',
+                    't' => 'info',
                     'info' => array(
-                        'Producer'      => 'CPDF (dompdf)',
+                        'Producer' => 'CPDF (dompdf)',
                         'CreationDate' => $date
                     )
                 );
@@ -1396,9 +1397,9 @@ EOT;
             case 'new':
                 $this->numPages++;
                 $this->objects[$id] = array(
-                    't'    => 'page',
+                    't' => 'page',
                     'info' => array(
-                        'parent'  => $this->currentNode,
+                        'parent' => $this->currentNode,
                         'pageNum' => $this->numPages,
                         'mediaBox' => $this->objects[$this->currentNode]['info']['mediaBox']
                     )
@@ -1557,7 +1558,7 @@ EOT;
         switch ($action) {
             case 'new':
                 $this->objects[$id] = array(
-                    't'    => 'embedjs',
+                    't' => 'embedjs',
                     'info' => array(
                         'Names' => '[(EmbeddedJS) ' . ($id + 1) . ' 0 R]'
                     )
@@ -1584,9 +1585,9 @@ EOT;
         switch ($action) {
             case 'new':
                 $this->objects[$id] = array(
-                    't'    => 'javascript',
+                    't' => 'javascript',
                     'info' => array(
-                        'S'  => '/JavaScript',
+                        'S' => '/JavaScript',
                         'JS' => '(' . $this->filterText($code) . ')',
                     )
                 );
@@ -2153,10 +2154,10 @@ EOT;
         // assume that $font contains the path and file but not the extension
         $name = basename($font);
         $dir = dirname($font) . '/';
-        
+
         $fontcache = $this->fontcache;
         if ($fontcache == '') {
-            $fontcache = rtrim($dir, DIRECTORY_SEPARATOR."/\\");
+            $fontcache = rtrim($dir, DIRECTORY_SEPARATOR . "/\\");
         }
 
         //$name       filename without folder and extension of font metrics
@@ -2634,17 +2635,17 @@ EOT;
 
                     $flags += pow(2, 5); // assume non-sybolic
                     $list = array(
-                        'Ascent'       => 'Ascender',
-                        'CapHeight'    => 'Ascender', //FIXME: php-font-lib is not grabbing this value, so we'll fake it and use the Ascender value // 'CapHeight'
+                        'Ascent' => 'Ascender',
+                        'CapHeight' => 'Ascender', //FIXME: php-font-lib is not grabbing this value, so we'll fake it and use the Ascender value // 'CapHeight'
                         'MissingWidth' => 'MissingWidth',
-                        'Descent'      => 'Descender',
-                        'FontBBox'     => 'FontBBox',
-                        'ItalicAngle'  => 'ItalicAngle'
+                        'Descent' => 'Descender',
+                        'FontBBox' => 'FontBBox',
+                        'ItalicAngle' => 'ItalicAngle'
                     );
                     $fdopt = array(
-                        'Flags'    => $flags,
+                        'Flags' => $flags,
                         'FontName' => $adobeFontName,
-                        'StemV'    => $stemV
+                        'StemV' => $stemV
                     );
 
                     foreach ($list as $k => $v) {
@@ -2686,11 +2687,11 @@ EOT;
 
                     // tell the font object about all this new stuff
                     $tmp = array(
-                        'BaseFont'       => $adobeFontName,
-                        'MissingWidth'   => $missing_width,
-                        'Widths'         => $widthid,
-                        'FirstChar'      => $firstChar,
-                        'LastChar'       => $lastChar,
+                        'BaseFont' => $adobeFontName,
+                        'MissingWidth' => $missing_width,
+                        'Widths' => $widthid,
+                        'FirstChar' => $firstChar,
+                        'LastChar' => $lastChar,
                         'FontDescriptor' => $fontDescriptorId
                     );
 
@@ -2864,8 +2865,8 @@ EOT;
      * ColorDogde, ColorBurn, HardLight, SoftLight, Difference,
      * Exclusion
      *
-     * @param string $mode    the blend mode to use
-     * @param float  $opacity 0.0 fully transparent, 1.0 fully opaque
+     * @param string $mode the blend mode to use
+     * @param float $opacity 0.0 fully transparent, 1.0 fully opaque
      */
     function setLineTransparency($mode, $opacity)
     {
@@ -2915,8 +2916,8 @@ EOT;
      * ColorDogde, ColorBurn, HardLight, SoftLight, Difference,
      * Exclusion
      *
-     * @param string $mode    the blend mode to use
-     * @param float  $opacity 0.0 fully transparent, 1.0 fully opaque
+     * @param string $mode the blend mode to use
+     * @param float $opacity 0.0 fully transparent, 1.0 fully opaque
      */
     function setFillTransparency($mode, $opacity)
     {
@@ -3048,7 +3049,8 @@ EOT;
         $fill = false,
         $stroke = true,
         $incomplete = false
-    ) {
+    )
+    {
         if ($r1 == 0) {
             return;
         }
@@ -3321,8 +3323,8 @@ EOT;
      *
      * @param float $s_x scaling factor for width as percent
      * @param float $s_y scaling factor for height as percent
-     * @param float $x   Origin abscissa
-     * @param float $y   Origin ordinate
+     * @param float $x Origin abscissa
+     * @param float $y Origin ordinate
      */
     function scale($s_x, $s_y, $x, $y)
     {
@@ -3364,8 +3366,8 @@ EOT;
      * rotate
      *
      * @param float $angle angle in degrees for counter-clockwise rotation
-     * @param float $x     Origin abscissa
-     * @param float $y     Origin ordinate
+     * @param float $x Origin abscissa
+     * @param float $y Origin ordinate
      */
     function rotate($angle, $x, $y)
     {
@@ -3717,8 +3719,8 @@ EOT;
      * @author Orion Richardson
      * @since  January 5, 2008
      *
-     * @param string  $text UTF-8 string to process
-     * @param boolean $bom  whether to add the byte order marker
+     * @param string $text UTF-8 string to process
+     * @param boolean $bom whether to add the byte order marker
      *
      * @return string UTF-16 result string
      */
@@ -3833,13 +3835,13 @@ EOT;
             for ($i = $this->nCallback; $i > 0; $i--) {
                 // call each function
                 $info = array(
-                    'x'         => $x,
-                    'y'         => $y,
-                    'angle'     => $angle,
-                    'status'    => 'sol',
-                    'p'         => $this->callback[$i]['p'],
+                    'x' => $x,
+                    'y' => $y,
+                    'angle' => $angle,
+                    'status' => 'sol',
+                    'p' => $this->callback[$i]['p'],
                     'nCallback' => $this->callback[$i]['nCallback'],
-                    'height'    => $this->callback[$i]['height'],
+                    'height' => $this->callback[$i]['height'],
                     'descender' => $this->callback[$i]['descender']
                 );
 
@@ -3897,13 +3899,13 @@ EOT;
                 // call each function
                 $tmp = $this->getTextPosition($x, $y, $angle, $size, $wordSpaceAdjust, $text);
                 $info = array(
-                    'x'         => $tmp[0],
-                    'y'         => $tmp[1],
-                    'angle'     => $angle,
-                    'status'    => 'eol',
-                    'p'         => $this->callback[$i]['p'],
+                    'x' => $tmp[0],
+                    'y' => $tmp[1],
+                    'angle' => $angle,
+                    'status' => 'eol',
+                    'p' => $this->callback[$i]['p'],
                     'nCallback' => $this->callback[$i]['nCallback'],
-                    'height'    => $this->callback[$i]['height'],
+                    'height' => $this->callback[$i]['height'],
                     'descender' => $this->callback[$i]['descender']
                 );
                 $func = $this->callback[$i]['f'];
@@ -4264,14 +4266,14 @@ EOT;
      * add a PNG image into the document, from a GD object
      * this should work with remote files
      *
-     * @param string   $file    The PNG file
-     * @param float    $x       X position
-     * @param float    $y       Y position
-     * @param float    $w       Width
-     * @param float    $h       Height
-     * @param resource $img     A GD resource
-     * @param bool     $is_mask true if the image is a mask
-     * @param bool     $mask    true if the image is masked
+     * @param string $file The PNG file
+     * @param float $x X position
+     * @param float $y Y position
+     * @param float $w Width
+     * @param float $h Height
+     * @param resource $img A GD resource
+     * @param bool $is_mask true if the image is a mask
+     * @param bool $mask true if the image is masked
      */
     function addImagePng($file, $x, $y, $w = 0.0, $h = 0.0, &$img, $is_mask = false, $mask = null)
     {
@@ -4815,17 +4817,17 @@ EOT;
 
             //  $this->o_image($this->numObj,'new',array('label' => $label,'data' => $idata,'iw' => $w,'ih' => $h,'type' => 'png','ic' => $info['width']));
             $options = array(
-                'label'            => $label,
-                'data'             => $idata,
+                'label' => $label,
+                'data' => $idata,
                 'bitsPerComponent' => $info['bitDepth'],
-                'pdata'            => $pdata,
-                'iw'               => $info['width'],
-                'ih'               => $info['height'],
-                'type'             => 'png',
-                'color'            => $color,
-                'ncolor'           => $ncolor,
-                'masked'           => $mask,
-                'isMask'           => $is_mask
+                'pdata' => $pdata,
+                'iw' => $info['width'],
+                'ih' => $info['height'],
+                'type' => 'png',
+                'color' => $color,
+                'ncolor' => $ncolor,
+                'masked' => $mask,
+                'isMask' => $is_mask
             );
 
             if (isset($transparency)) {
@@ -4915,7 +4917,8 @@ EOT;
         $imageHeight,
         $channels = 3,
         $imgname
-    ) {
+    )
+    {
         if ($this->image_iscached($imgname)) {
             $label = $this->imagelist[$imgname]['label'];
             //debugpng
@@ -4939,19 +4942,19 @@ EOT;
                 $this->numObj,
                 'new',
                 array(
-                    'label'    => $label,
-                    'data'     => &$data,
-                    'iw'       => $imageWidth,
-                    'ih'       => $imageHeight,
+                    'label' => $label,
+                    'data' => &$data,
+                    'iw' => $imageWidth,
+                    'ih' => $imageHeight,
                     'channels' => $channels
                 )
             );
 
             $this->imagelist[$imgname] = array(
                 'label' => $label,
-                'w'     => $imageWidth,
-                'h'     => $imageHeight,
-                'c'     => $channels
+                'w' => $imageWidth,
+                'h' => $imageHeight,
+                'c' => $channels
             );
         }
 
@@ -5029,24 +5032,24 @@ EOT;
                 // within text streams. html forms will be used... <b></b> <i></i>
                 $this->fontFamilies['Helvetica.afm'] =
                     array(
-                        'b'  => 'Helvetica-Bold.afm',
-                        'i'  => 'Helvetica-Oblique.afm',
+                        'b' => 'Helvetica-Bold.afm',
+                        'i' => 'Helvetica-Oblique.afm',
                         'bi' => 'Helvetica-BoldOblique.afm',
                         'ib' => 'Helvetica-BoldOblique.afm'
                     );
 
                 $this->fontFamilies['Courier.afm'] =
                     array(
-                        'b'  => 'Courier-Bold.afm',
-                        'i'  => 'Courier-Oblique.afm',
+                        'b' => 'Courier-Bold.afm',
+                        'i' => 'Courier-Oblique.afm',
                         'bi' => 'Courier-BoldOblique.afm',
                         'ib' => 'Courier-BoldOblique.afm'
                     );
 
                 $this->fontFamilies['Times-Roman.afm'] =
                     array(
-                        'b'  => 'Times-Bold.afm',
-                        'i'  => 'Times-Italic.afm',
+                        'b' => 'Times-Bold.afm',
+                        'i' => 'Times-Italic.afm',
                         'bi' => 'Times-BoldItalic.afm',
                         'ib' => 'Times-BoldItalic.afm'
                     );

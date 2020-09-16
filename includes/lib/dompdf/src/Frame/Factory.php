@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\Frame;
 
 use Dompdf\Css\Style;
@@ -12,9 +13,9 @@ use Dompdf\Dompdf;
 use Dompdf\Exception;
 use Dompdf\Frame;
 use Dompdf\FrameDecorator\AbstractFrameDecorator;
-use DOMXPath;
 use Dompdf\FrameDecorator\Page as PageFrameDecorator;
 use Dompdf\FrameReflower\Page as PageFrameReflower;
+use DOMXPath;
 
 /**
  * Contains frame decorating logic
@@ -50,9 +51,9 @@ class Factory
     /**
      * Decorate a Frame
      *
-     * @param Frame $frame   The frame to decorate
+     * @param Frame $frame The frame to decorate
      * @param Dompdf $dompdf The dompdf instance
-     * @param Frame $root    The frame to decorate
+     * @param Frame $root The frame to decorate
      *
      * @throws Exception
      * @return AbstractFrameDecorator
@@ -206,8 +207,8 @@ class Factory
         }
 
         $positioner = "Dompdf\\Positioner\\$positioner";
-        $decorator  = "Dompdf\\FrameDecorator\\$decorator";
-        $reflower   = "Dompdf\\FrameReflower\\$reflower";
+        $decorator = "Dompdf\\FrameDecorator\\$decorator";
+        $reflower = "Dompdf\\FrameReflower\\$reflower";
 
         /** @var AbstractFrameDecorator $deco */
         $deco = new $decorator($frame, $dompdf);

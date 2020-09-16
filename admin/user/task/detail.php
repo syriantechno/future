@@ -369,7 +369,8 @@ if ($task->type_status == '0') {
                                     <?php foreach ($messages as $message): ?>
                                         <div class="message-elem  message-<?php echo $message->id; ?>"
                                              id="<?php echo $message->id; ?>" title="<?php echo $message->title; ?>
-                                             "username="<?php echo get_user_info($message->sen_u_id, 'name'); ?> <?php echo get_user_info($message->sen_u_id, 'surname'); ?>">
+                                             "
+                                             username="<?php echo get_user_info($message->sen_u_id, 'name'); ?> <?php echo get_user_info($message->sen_u_id, 'surname'); ?>">
                                             <div class="message-elem-container">
                                                 <?php if (get_active_user('id') != $message->sen_u_id): ?>
                                                     <div class="message-elem-avatar pull-left">

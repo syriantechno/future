@@ -11,9 +11,8 @@ namespace Dompdf\Adapter;
 
 use Dompdf\Canvas;
 use Dompdf\Dompdf;
-use Dompdf\Helpers;
 use Dompdf\Exception;
-use Dompdf\FontMetrics;
+use Dompdf\Helpers;
 use Dompdf\Image\Cache;
 use Dompdf\PhpEvaluator;
 
@@ -173,7 +172,7 @@ class PDFLib implements Canvas
         $this->_dompdf = $dompdf;
 
         $this->_pdf = new \PDFLib();
-        
+
         $license = $dompdf->get_option('pdflibLicense');
         if (strlen($license) > 0)
             $this->_pdf->set_parameter("license", $license);
@@ -1098,9 +1097,9 @@ class PDFLib implements Canvas
         $fallbackfilename = mb_convert_encoding($filename, "ISO-8859-1", $encoding);
         $encodedfallbackfilename = rawurlencode($fallbackfilename);
         $encodedfilename = rawurlencode($filename);
-        
-        header("Content-Disposition: $attach; filename=". $encodedfallbackfilename ."; filename*=UTF-8''$encodedfilename");
-        
+
+        header("Content-Disposition: $attach; filename=" . $encodedfallbackfilename . "; filename*=UTF-8''$encodedfilename");
+
         //header("Content-length: " . $size);
 
         if (self::$IN_MEMORY)

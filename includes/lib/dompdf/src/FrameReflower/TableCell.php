@@ -5,6 +5,7 @@
  * @author  Benj Carson <benjcarson@digitaljunkies.ca>
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
+
 namespace Dompdf\FrameReflower;
 
 use Dompdf\FrameDecorator\Block as BlockFrameDecorator;
@@ -45,22 +46,22 @@ class TableCell extends Block
         $h = $this->_frame->get_containing_block("h");
 
         $left_space = $style->length_in_pt(array($style->margin_left,
-                $style->padding_left,
-                $style->border_left_width),
+            $style->padding_left,
+            $style->border_left_width),
             $w);
 
         $right_space = $style->length_in_pt(array($style->padding_right,
-                $style->margin_right,
-                $style->border_right_width),
+            $style->margin_right,
+            $style->border_right_width),
             $w);
 
         $top_space = $style->length_in_pt(array($style->margin_top,
-                $style->padding_top,
-                $style->border_top_width),
+            $style->padding_top,
+            $style->border_top_width),
             $h);
         $bottom_space = $style->length_in_pt(array($style->margin_bottom,
-                $style->padding_bottom,
-                $style->border_bottom_width),
+            $style->padding_bottom,
+            $style->border_bottom_width),
             $h);
 
         $style->width = $cb_w = $w - $left_space - $right_space;

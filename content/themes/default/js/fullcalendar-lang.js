@@ -1,7 +1,7 @@
-! function(a) {
+!function (a) {
     "function" == typeof define && define.amd ? define(["jquery", "moment"], a) : "object" == typeof exports ? module.exports = a(require("jquery"), require("moment")) : a(jQuery, moment)
-}(function(a, e) {
-    ! function() {
+}(function (a, e) {
+    !function () {
         var a = {
                 1: "'inci",
                 5: "'inci",
@@ -60,7 +60,7 @@
                     yy: "%d عام"
                 },
                 ordinalParse: /\d{1,2}'(inci|nci|üncü|ncı|uncu|ıncı)/,
-                ordinal: function(e) {
+                ordinal: function (e) {
                     if (0 === e) return e + "'ıncı";
                     var t = e % 10,
                         n = e % 100 - t,
@@ -74,32 +74,32 @@
             });
         return t
     }(), a.fullCalendar.datepickerLocale("ar", "ar", {
-      closeText: "قريب",
-      prevText: "&#x3C;geri",
-      nextText: "ileri&#x3e",
-      currentText: "اليوم",
-      monthNames: ["كانون الثاني", "شباط", "أذار", "نيسان", "أيار", "حزيران", "تموز", "اب", "ايلول", "تشرين اول", "تشرين الثاني", "كانون اول"],
-      monthNamesShort: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
-      dayNames: ["الأحد", "الإثنين", "الثلاثاء", "الاربعاء", "الخميس", "الجمعة", "السبت"],
-      dayNamesShort: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"],
-      dayNamesMin: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"],
-      weekHeader: "Hf",
-      dateFormat: "dd.mm.yy",
-      firstDay: 1,
-      isRTL: !1,
-      showMonthAfterYear: !1,
-      yearSuffix: ""
+        closeText: "قريب",
+        prevText: "&#x3C;geri",
+        nextText: "ileri&#x3e",
+        currentText: "اليوم",
+        monthNames: ["كانون الثاني", "شباط", "أذار", "نيسان", "أيار", "حزيران", "تموز", "اب", "ايلول", "تشرين اول", "تشرين الثاني", "كانون اول"],
+        monthNamesShort: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
+        dayNames: ["الأحد", "الإثنين", "الثلاثاء", "الاربعاء", "الخميس", "الجمعة", "السبت"],
+        dayNamesShort: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"],
+        dayNamesMin: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"],
+        weekHeader: "Hf",
+        dateFormat: "dd.mm.yy",
+        firstDay: 1,
+        isRTL: !1,
+        showMonthAfterYear: !1,
+        yearSuffix: ""
     }), a.fullCalendar.locale("ar", {
-      buttonText: {
-        next: "التالي",
-        month: "الشهر",
-        week: "الاسبوع",
-        day: "اليوم",
-        list: "القائمة",
-        listWeek: 'قائمة الاسابيع'
-      },
-      allDayText: "كل يوم",
-      eventLimitText: "أكثر",
-      noEventsMessage: "لم يتم العثور على الحدث"
+        buttonText: {
+            next: "التالي",
+            month: "الشهر",
+            week: "الاسبوع",
+            day: "اليوم",
+            list: "القائمة",
+            listWeek: 'قائمة الاسابيع'
+        },
+        allDayText: "كل يوم",
+        eventLimitText: "أكثر",
+        noEventsMessage: "لم يتم العثور على الحدث"
     })
 });

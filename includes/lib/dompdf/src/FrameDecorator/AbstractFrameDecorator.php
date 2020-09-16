@@ -4,16 +4,16 @@ namespace Dompdf\FrameDecorator;
 
 use DOMElement;
 use DOMNode;
-use DOMText;
-use Dompdf\Helpers;
-use Dompdf\Dompdf;
-use Dompdf\Frame;
-use Dompdf\Frame\FrameTreeList;
-use Dompdf\Frame\Factory;
-use Dompdf\FrameReflower\AbstractFrameReflower;
 use Dompdf\Css\Style;
-use Dompdf\Positioner\AbstractPositioner;
+use Dompdf\Dompdf;
 use Dompdf\Exception;
+use Dompdf\Frame;
+use Dompdf\Frame\Factory;
+use Dompdf\Frame\FrameTreeList;
+use Dompdf\FrameReflower\AbstractFrameReflower;
+use Dompdf\Helpers;
+use Dompdf\Positioner\AbstractPositioner;
+use DOMText;
 
 /**
  * @package dompdf
@@ -85,7 +85,7 @@ abstract class AbstractFrameDecorator extends Frame
     /**
      * Class constructor
      *
-     * @param Frame $frame   The decoration target
+     * @param Frame $frame The decoration target
      * @param Dompdf $dompdf The Dompdf object
      */
     function __construct(Frame $frame, Dompdf $dompdf)
@@ -146,12 +146,12 @@ abstract class AbstractFrameDecorator extends Frame
     function deep_copy()
     {
         $node = $this->_frame->get_node();
-        
+
         if ($node instanceof DOMElement && $node->hasAttribute("id")) {
             $node->setAttribute("data-dompdf-original-id", $node->getAttribute("id"));
             $node->removeAttribute("id");
         }
-        
+
         $frame = new Frame($node->cloneNode());
         $frame->set_style(clone $this->_frame->get_original_style());
 
@@ -612,8 +612,7 @@ abstract class AbstractFrameDecorator extends Frame
     {
         // decrement any counters that were incremented on the current node, unless that node is the body
         $style = $this->_frame->get_style();
-        if ($this->_frame->get_node(
-            )->nodeName !== "body" && $style->counter_increment && ($decrement = $style->counter_increment) !== "none"
+        if ($this->_frame->get_node()->nodeName !== "body" && $style->counter_increment && ($decrement = $style->counter_increment) !== "none"
         ) {
             $this->decrement_counters($decrement);
         }
@@ -624,8 +623,7 @@ abstract class AbstractFrameDecorator extends Frame
             // it's been rendered, thus the position check)
             if (!$this->is_text_node() && $this->get_node()->hasAttribute("dompdf_before_frame_id")) {
                 foreach ($this->_frame->get_children() as $child) {
-                    if ($this->get_node()->getAttribute("dompdf_before_frame_id") == $child->get_id(
-                        ) && $child->get_position('x') !== null
+                    if ($this->get_node()->getAttribute("dompdf_before_frame_id") == $child->get_id() && $child->get_position('x') !== null
                     ) {
                         $style = $child->get_style();
                         if ($style->counter_increment && ($decrement = $style->counter_increment) !== "none") {
@@ -644,7 +642,7 @@ abstract class AbstractFrameDecorator extends Frame
         }
 
         $node = $this->_frame->get_node();
-        
+
         if ($node instanceof DOMElement && $node->hasAttribute("id")) {
             $node->setAttribute("data-dompdf-original-id", $node->getAttribute("id"));
             $node->removeAttribute("id");
