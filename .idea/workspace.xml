@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/user/task/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/user/task/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/account/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/system/options/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/system/options/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/default/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/default/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultra.php" beforeDir="false" afterPath="$PROJECT_DIR$/ultra.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +28,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/form/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4665">
-              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="808">
+              <caret line="98" column="71" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/user/task/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -41,11 +43,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/payment/detail.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/system/options/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20808">
-              <caret line="612" column="22" selection-start-line="608" selection-start-column="4" selection-end-line="612" selection-end-column="22" />
+            <state relative-caret-position="113">
+              <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
+              <folding>
+                <element signature="n#div#10;n#form#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#5;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ultra.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-806">
+              <caret line="259" column="26" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/account/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/themes/default/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="1906" lean-forward="true" selection-start-line="1906" selection-end-line="1906" />
             </state>
           </provider>
         </entry>
@@ -64,6 +97,9 @@
       <find>توزيع</find>
       <find>panel-heading hidden-xs</find>
       <find>log</find>
+      <find>price4</find>
+      <find>highlight</find>
+      <find>list-group mobile-full list-group-dashboard</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,11 +142,14 @@
         <option value="$PROJECT_DIR$/admin/form/list.php" />
         <option value="$PROJECT_DIR$/includes/helper.php" />
         <option value="$PROJECT_DIR$/includes/form.php" />
-        <option value="$PROJECT_DIR$/admin/account/list.php" />
         <option value="$PROJECT_DIR$/admin/account/delete.php" />
         <option value="$PROJECT_DIR$/admin/form/detail.php" />
         <option value="$PROJECT_DIR$/admin/form/index.php" />
         <option value="$PROJECT_DIR$/admin/user/task/index.php" />
+        <option value="$PROJECT_DIR$/content/themes/default/css/app.css" />
+        <option value="$PROJECT_DIR$/admin/account/list.php" />
+        <option value="$PROJECT_DIR$/ultra.php" />
+        <option value="$PROJECT_DIR$/admin/system/options/index.php" />
       </list>
     </option>
   </component>
@@ -153,20 +192,46 @@
               <item name="adam" type="b2602c69:ProjectViewProjectNode" />
               <item name="adam" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adam" type="b2602c69:ProjectViewProjectNode" />
               <item name="adam" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adam" type="b2602c69:ProjectViewProjectNode" />
               <item name="adam" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adam" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +298,7 @@
       <updated>1600213101129</updated>
       <workItem from="1600213102582" duration="7621000" />
       <workItem from="1600220933653" duration="14637000" />
-      <workItem from="1600236452710" duration="1204000" />
+      <workItem from="1600236452710" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -312,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600235615677</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update add task">
+      <created>1600237959534</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600237959535</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23462000" />
+    <option name="totallyTimeSpent" value="28029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -397,22 +469,10 @@
     <MESSAGE value="add 3" />
     <MESSAGE value="fixed msg list lang" />
     <MESSAGE value="update text" />
-    <option name="LAST_COMMIT_MESSAGE" value="update text" />
+    <MESSAGE value="update add task" />
+    <option name="LAST_COMMIT_MESSAGE" value="update add task" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/account/getJSON.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/account/print-address.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1469" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/account/print-barcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/account/print-cargo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2625" />
@@ -554,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="263" column="192" selection-start-line="263" selection-start-column="160" selection-end-line="263" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/account/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -647,17 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/account/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="177" selection-end-column="22" />
-          <folding>
-            <element signature="e#1501#1522#0#HTML" expanded="true" />
-            <element signature="e#3014#8649#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/form/detail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29376">
@@ -667,15 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/payment/detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20808">
+        <state relative-caret-position="332">
           <caret line="612" column="22" selection-start-line="608" selection-start-column="4" selection-end-line="612" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/form/index.php">
+    <entry file="file://$PROJECT_DIR$/content/themes/default/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4665">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="196">
+          <caret line="1906" lean-forward="true" selection-start-line="1906" selection-end-line="1906" />
         </state>
       </provider>
     </entry>
@@ -683,6 +725,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/account/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="256" column="89" lean-forward="true" selection-start-line="256" selection-start-column="89" selection-end-line="256" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="98" column="71" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="259" column="26" selection-start-line="259" selection-start-column="26" selection-end-line="259" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/system/options/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#10;n#form#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

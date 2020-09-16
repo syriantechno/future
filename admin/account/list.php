@@ -21,11 +21,23 @@ if (!isset($_GET['orderby_code'])) {
 
 
 ?>
-
+<?php
+    $_company = get_option('company');
+    if (empty($_company)) {
+    $_company = (object)array('name' => '', 'address' => '', 'district' => '', 'city' => '', 'country' => '', 'email' => '', 'phone' => '', 'gsm' => '', 'currency' => '', 'price1' => '', 'price2' => '', 'price4' => '', 'price5' => '', 'price6' => '', 'highlight' => '');
+    }
+    ?>
     <div class="row">
 
     </div>
-
+    <style>
+        .highlight{
+            background-color: <?php echo $_company->highlight; ?>;
+        }
+        .table-hover > tbody > tr:hover{
+            background-color: <?php echo $_company->highlight2; ?>;
+        }
+    </style>
 
 <?php
 

@@ -256,6 +256,8 @@ til()->company->email = 'info@ultra.com';
 til()->company->phone = '76404750';
 til()->company->gsm = '76404750';
 til()->company->currency = 'ل٫س';
+til()->company->highlight = '#3498db';
+til()->company->highlight2 = '#9b59b6';
 
 
 $get_option = get_option('company');
@@ -287,6 +289,7 @@ til()->price->color3 = '0';
 til()->price->color4 = '0';
 til()->price->color5 = '0';
 til()->price->color6 = '0';
+
 
 
 $get_option = get_option('price');
