@@ -10,7 +10,7 @@ add_page_info('nav', array('name' => 'إدارة المهام'));
         <div class="row space-5">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2">
                 <div class="box-menu">
-                    <a href="<?php site_url('admin/user/task/add.php/'); ?>">
+                    <a href="<?php site_url('admin/user/task/add.php'); ?>">
                         <span class="icon-box"><i class="fa fa-plus-square-o"></i></span>
                         <h3>مهمة جديدة</h3>
                     </a>
