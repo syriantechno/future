@@ -44,7 +44,9 @@ session_start();
 <style>
 
     body {
-        background: url('<?php echo _site_url; ?>/content/themes/default/img/login/bg-<?php echo $bg_number; ?>.jpg') no-repeat center fixed;
+        background: url('<?php echo _site_url; ?>/content/themes/default/img/login/bg.jpg') no-repeat  fixed;
+        background-position: left;
+        background-size: cover;
     }
 
     div.h20 {
@@ -56,16 +58,19 @@ session_start();
         height: 100%;
         width: 100%;
         z-index: -1;
-        position: absolute;
+
         top: 0;
         left: 0;
     }
 
     .loginbox {
-        border-radius: 4px;
-        background-color: rgba(250, 250, 250, 0.5);
+
+        background-color: #ffffff63;
         padding: 30px;
-        margin-top: 20%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 30%;
     }
 
     .loginbox form input {
@@ -326,8 +331,9 @@ if (isset($_POST['username'])) {
             <div class="loginbox">
 
                 <div>
-                    <img src="<?php echo _site_url; ?>/content/themes/default/img/login_header.png"
-                         class="img-responsive" style="margin: auto;">
+                    <img src="<?php echo _site_url; ?>/content/themes/default/img/logo_header.png"
+                         class="img-responsive" style="margin: auto;     padding-top: 25%;
+    padding-bottom: 40px;">
 
                 </div>
                 <div class="h20"></div>
@@ -358,19 +364,19 @@ if (isset($_POST['username'])) {
                 <form name="form_login" id="form_login" action="" method="POST" class="validation">
                     <div class="form-group">
                         <input type="text" name="username" id="username" class="form-control input-lg required email"
-                               value="<?php echo @$username; ?>" placeholder="E-posta">
+                               value="<?php echo @$username; ?>" placeholder="اسم المستخدم" style="width: 45%; margin: auto; height: 40px;" >
                     </div> <!-- /.form-group -->
                     <div class="form-group">
                         <input type="password" name="password" id="password" class="form-control input-lg required"
-                               value="<?php echo @$password; ?>" placeholder="?ifre">
+                               value="<?php echo @$password; ?>" placeholder="كلمة المرور" style="width: 45%; margin: auto; height: 40px;">
                     </div> <!-- /.form-group -->
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="text-center">
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox"> <span
-                                            class="text-muted">حفظ اسم المستخدم وكلمة المرور</span>
+                                            class="text">حفظ معلومات الدخول</span>
                                 </label>
                             </div> <!-- /.checkbox -->
                         </div> <!-- /.col-md-6 -->
@@ -378,8 +384,8 @@ if (isset($_POST['username'])) {
                         </div> <!-- /.col-md-6 -->
                     </div> <!-- /.row -->
 
-                    <div class="text-right">
-                        <button class="btn btn-success btn-block btn-lg">تسجيل الدخول</button>
+                    <div class="text-center">
+                        <button class="btn btn-success  btn-lg">تسجيل الدخول</button>
                     </div> <!-- /.text-right -->
                     <div class="h20"></div>
 
@@ -423,15 +429,7 @@ if (isset($_POST['username'])) {
     }
 </style>
 
-<footer>
-    <div class="footer_links">
-        <a href="#">برمجة وتصميم</a>
-        <a href="#">من تطوير</a>
-        <a href="#">حقوق النشر</a>
-        <a href="#">شروط الاستخدام</a>
-        <a href="#">الاتصال بنا</a>
-    </div> <!-- /.footer_links -->
-</footer>
+
 
 <div class="bg_opacity"></div>
 
