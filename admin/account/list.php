@@ -200,10 +200,10 @@ endif;
 
                     <th class="hidden-xs">I/O</th>
                     <th class="hidden-xs" width="3%">ID<?php echo get_table_order_by('id', 'ASC'); ?></th>
-                    <th class="hidden-xs" width="8%">كود المستفيد<?php echo get_table_order_by('code', ''); ?></th>
+<!--                    <th class="hidden-xs" width="8%">الكود--><?php //echo get_table_order_by('code', ''); ?><!--</th>-->
                     <th width="10%">اسم المستفيد <?php echo get_table_order_by('name', ''); ?></th>
                     <th width="5%">الاب <?php echo get_table_order_by('fathername', ''); ?></th>
-                    <th width="5%">الجنس <?php echo get_table_order_by('sex', ''); ?></th>
+                    <th width="5%">ذ/أ <?php echo get_table_order_by('sex', ''); ?></th>
                     <th width="8%">تاريخ الميلاد <?php echo get_table_order_by('DateofBirth', '') ?></th>
                     <th>ر٫وطني <?php echo get_table_order_by('countrynumber', ''); ?></th>
                     <th>ر٫ا <?php echo get_table_order_by('Retardationnum', ''); ?></th>
@@ -246,9 +246,9 @@ endif;
                                    data-target="#account-id-<?= $account->id; ?>" id="check-<?= $account->id; ?>"/>
                         </td>
                         <td class="hidden-xs"><?php echo $account->id; ?></a></td>
-                        <td class="hidden-xs"><a
-                                    href="detail.php?id=<?php echo $account->id; ?>"><?php echo $account->code; ?></a>
-                        </td>
+<!--                        <td class="hidden-xs"><a-->
+<!--                                    href="detail.php?id=--><?php //echo $account->id; ?><!--">--><?php //echo $account->code; ?><!--</a>-->
+<!--                        </td>-->
                         <td>
                             <a href="detail.php?id=<?php echo $account->id; ?>"><?php echo $account->name; ?>
                             </a>

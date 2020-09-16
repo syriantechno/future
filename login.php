@@ -437,4 +437,4 @@ if (isset($_POST['username'])) {
 
 
 </body>
-</script>
+</html>
