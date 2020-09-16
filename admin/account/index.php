@@ -28,7 +28,7 @@ add_page_info( 'nav', array('name'=>'بطاقات المستفيد') );
 				<div class="box-menu">
 					<a href="<?php site_url('admin/account/list.php'); ?>">
 						<span class="icon-box1">
-                            <div class="stats-title">قائمة المستفيدين</div>
+                            <div class="stats-title">كل المستفيدين</div>
                             <i class="faw fa-list" style="color: rgba(255, 255, 255, 0.4117647058823529);"></i>
                             <hr>
                             <div class="stats-desc">تعديل وحذف وكشف مستفيد</div>

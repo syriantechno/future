@@ -64,7 +64,7 @@ $forms = get_forms(array('_GET'=>true)); ?>
 						<td class="fs-11 text-muted"><?php echo til_get_date($form->date, 'd M H:i'); ?></td>
 						<td class="fs-10"><?php if($form->account_id): ?><a href="../account/detail.php?id=<?php echo $form->account_id; ?>#forms" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> <?php echo $form->account_name; ?></a> <?php else: ?><?php echo $form->account_name; ?><?php endif; ?></td>
 						<td class="text-center hidden-xs-portrait"><span class="text-muted"  data-toggle="tooltip" data-placement="top" title="" data-original-title="<?php echo $form->item_count; ?> منتج مختلف"><?php echo $form->item_quantity; ?> العدد</span></td>
-						<td class="text-right"><?php echo get_set_money($form->total, true); ?></td>
+						<td class="text-right"><?php echo get_set_money($form->item_count, true); ?></td>
 					</tr>
 				<?php endforeach; ?>
 				</tbody>
@@ -214,7 +214,7 @@ $forms = get_forms(array('_GET'=>true)); ?>
 								}
 								?>
 						  </span></td>
-						<td class="text-right"><?php echo get_set_money($form->total, true); ?></td>
+						<td class="text-right"><?php echo get_set_money($form->item_count, true); ?></td>
 					</tr>
 				<?php endforeach; ?>
 				</tbody>

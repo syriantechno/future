@@ -91,7 +91,7 @@ add_page_info( 'nav', array('name'=>'ادارة التوزيع') );
 				<?php if($form_status_all = get_form_status_all('0')): ?>
 					<div class="list-group mobile-full list-group-dashboard">
 						<?php foreach($form_status_all as $status): ?>
-							<a href="<?php site_url(); ?>/admin/form/list.php?status_id=<?php echo $status->id; ?>" class="list-group-item-column" style="border-left:100px solid <?php echo $status->bg_color; ?>; width: 33.33333%">
+							<a href="<?php site_url(); ?>/admin/form/list.php?status_id=<?php echo $status->id; ?>" class="list-group-item-column" style="border-left:25px solid <?php echo $status->bg_color; ?>; width: 33.33333%">
 								<?php echo $status->name; ?>
 								<span class="pull-right"><?php echo $status->count = calc_form_status($status->id); ?></span>
 							</a>

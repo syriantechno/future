@@ -424,7 +424,7 @@ function calc_form($id) {
 function get_in_out_label($in_out) {
 	$label = '';
 	if($in_out == '0') {
-		$label = 'توزيع';
+		$label = 'معونة';
 	} elseif($in_out == '1') {
 		$label = 'مصروف';
 	} else {
