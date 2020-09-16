@@ -11,9 +11,9 @@ if(isset($_GET['id'])) {
 <?php $form_meta = get_form_meta($form->id); ?>
 
 <?php if($form->in_out == '0'): ?>
-	<title>شكل الادخال - <?php echo $form->account_name; ?> | ERPultra </title>
+	<title>شكل الادخال - <?php echo $form->account_name; ?> | المستقبل </title>
 <?php else: ?>
-	<title>شكل الإخراج - <?php echo $form->account_name; ?> | ERPultra </title>
+	<title>شكل الإخراج - <?php echo $form->account_name; ?> | المستقبل </title>
 <?php endif; ?>
 
 

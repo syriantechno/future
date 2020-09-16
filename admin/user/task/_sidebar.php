@@ -5,13 +5,13 @@
 		</div>
 		<div class="clearfix"></div>
 		<div class="h-20"></div>
-
+<?php $box='inbox'; $type_status='0';?>
 		<div class="list-group list-group-messagebox">
-			<!-- gelen gorevler -->
+
 		  	<a href="list.php?box=inbox" class="list-group-item <?php echo $box == 'inbox' ? 'active' : ''; ?>"><i class="fa fa-mail-forward fa-fw"></i> المهام الواردة</a>
 		  	<a href="list.php?box=inbox&type_status=0" class="list-group-item list-group-item-sub <?php echo $type_status == '0' && $box == 'inbox' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> المهام المفتوحة <span class="badge"><?php echo get_calc_task(array('query'=>_get_query_task('inbox-open'))); ?></span></a>
 		  	<a href="list.php?box=inbox&type_status=1" class="list-group-item list-group-item-sub <?php echo $type_status == '1' && $box == 'inbox' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> المهام المكتملة <span class="badge"><?php echo get_calc_task(array('query'=>_get_query_task('inbox-close'))); ?></span></a>
-		  	<!-- giden gorevler -->
+
 		  	<a href="list.php?box=outbox" class="list-group-item <?php echo $box == 'outbox' ? 'active' : ''; ?>"><i class="fa fa-mail-reply fa-fw"></i> المهام الصادرة</a>
 		  	<a href="list.php?box=outbox&type_status=0" class="list-group-item list-group-item-sub <?php echo $type_status == '0' && $box == 'outbox' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> المهام المكتملة <span class="badge"><?php echo get_calc_task(array('query'=>_get_query_task('outbox-open'))); ?></span></a>
 		  	<a href="list.php?box=outbox&type_status=1" class="list-group-item list-group-item-sub <?php echo $type_status == '1' && $box == 'outbox' ? 'active' : ''; ?>"><i class="fa fa-angle-double-right"></i> المهام المكتملة <span class="badge"><?php echo get_calc_task(array('query'=>_get_query_task('outbox-close'))); ?></span></a>

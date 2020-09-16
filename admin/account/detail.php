@@ -30,14 +30,14 @@ include_content_page('detail', $account->type, 'account');
 
 <?php get_header(); ?>
 <?php
-// تحديث بطاقة حسابك
+
 if (isset($_POST['update'])) {
     if (update_account($account->id, $_POST)) {
         $account = get_account($account->id, false);
     }
 }
 
-// تغير الحالة
+
 if (isset($_GET['status'])) {
     if ($_GET['status'] == '0' OR $_GET['status'] == '1') {
         if (update_account($account->id, array('update' => array('status' => $_GET['status']), 'add_alert' => false))) {
@@ -46,12 +46,12 @@ if (isset($_GET['status'])) {
     }
 }
 
-# اعدة حساب رصيد الحساب
+
 calc_account($account->id);
-# تذكر بطاقة الحساب
+
 $account = get_account($_GET['id'], false);
 
-# اضافة معلومات للصفحة
+
 add_page_info('title', $account->name);
 add_page_info('nav', array('name' => 'المستفيد', 'url' => get_site_url('admin/account/')));
 add_page_info('nav', array('name' => 'قائمة', 'url' => get_site_url('admin/account/list.php')));

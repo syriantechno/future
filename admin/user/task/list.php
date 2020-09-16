@@ -127,7 +127,7 @@ $tasks = get_tasks($_args);
 									<?php if($task->sen_trash_u_id == get_active_user('id') OR $task->rec_trash_u_id == get_active_user('id')): ?>
 										<a href="?id=<?php echo $task->id; ?>&move=null&box=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="إزالة من المهملات"><i class="fa fa-undo text-warning"></i></a>
 									<?php else: ?>
-										<a href="?id=<?php echo $task->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="Çöp kutusuna taşı"><i class="fa fa-trash-o text-danger"></i></a>
+										<a href="?id=<?php echo $task->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="ارسال الى سلة المحذوفات"><i class="fa fa-trash-o text-danger"></i></a>
 									<?php endif; ?>
 								<?php else: ?>
 									<a href="#" class="btn btn-default btn-xs disabled" title=""><i class="fa fa-trash text-muted"></i></a>

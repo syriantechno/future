@@ -111,9 +111,9 @@ $messages = get_messages($args);
 						<tr class="<?php if(!$list->read_it AND $list->inbox_u_id == get_active_user('id') AND $box != 'outbox'): ?>bold<?php endif; ?> pointer" onclick="location.href='<?php site_url('message', $list->id); ?>';">
 							<td width="10" class="hidden-xs">
 								<?php if($box == 'trash'): ?>
-									<a href="?id=<?php echo $list->id; ?>&move=null&box=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="Çöp kutusundan çıkar"><i class="fa fa-undo"></i></a>
+									<a href="?id=<?php echo $list->id; ?>&move=null&box=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="أخرجه من سلة المهملات"><i class="fa fa-undo"></i></a>
 								<?php else: ?>
-									<a href="?id=<?php echo $list->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="Çöp kutusuna taşı"><i class="fa fa-trash-o text-danger"></i></a>
+									<a href="?id=<?php echo $list->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="ارسال الى سلة المحذوفات"><i class="fa fa-trash-o text-danger"></i></a>
 								<?php endif; ?>
 							</td>
 

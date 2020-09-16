@@ -4,11 +4,11 @@
 
 /**
  * add_account()
- * إنشاء بطاقة حساب جديدة
+
  */
 function add_account($args) {
 
-	if(!have_log()) { // إذا لم يتم إضافة إيغر من قبل، لن يتم العثور على إدخال السجل.
+	if(!have_log()) {
 
 		$args = _args_helper(input_check($args), 'insert');
 		$insert = $args['insert'];
@@ -25,24 +25,24 @@ function add_account($args) {
 		@form_validation($insert['Retardationtype'], 'Retardationtype', 'نوع الاعاقة', 'min_length[3]|max_length[25]', __FUNCTION__);
 		@form_validation($insert['Retardationnum'], 'Retardationnum', ' رقم الاعاقة', 'min_length[3]|max_length[25]', __FUNCTION__);
 
-		// genel degerler
+
 		if(!isset($insert['type'])) { $insert['type'] = 'account'; } else { $insert['type'] = input_check($insert['type']); }
 		if(!isset($insert['date'])) { $insert['date'] = date('Y-m-d H:i:s'); }
-		if(empty($insert['code'])) { // eger code yani barkod kodu yok ise olusturalim
+		if(empty($insert['code'])) {
 			$insert['code'] = get_account_code_generator(); }
 
-		if(!is_alert(__FUNCTION__, 'danger')) { // eger herhangi bir hata yok ise
+		if(!is_alert(__FUNCTION__, 'danger')) {
 
 			$q_is_code = db()->query("SELECT * FROM ".dbname('accounts')." WHERE code='".$insert['code']."' ");
-			if($q_is_code->num_rows) { // eger veritabanında ayni barkod var ise
+			if($q_is_code->num_rows) {
 				$q_is_code = $q_is_code->fetch_object();
 				
 				if($args['add_alert']) { add_alert('<b>'.$insert['code'].'</b> تم العثور على رمز الحساب على بطاقة حساب أخرى. يرجى تغيير رمز الحساب أو <a href="'.get_site_url('admin/account/detail.php?id='.$q_is_code->id).'" target="_blank"><b>هنا</b></a> استخدام حساب.', 'warning', 'add_account'); }
 				if($q_is_code->status == '1') {
-					if($args['add_alert']) { add_alert('<u>أيضا، تم العثور على هذا الرمز بين بطاقات الحساب المحذوفةu</u>. بطاقة حسابك <a href="'.get_site_url('admin/account/detail.php?id='.$q_is_code->id).'"><b>من هنا</b></a> يمكنك تفعيله مرة أخرى.', 'warning', 'add_account'); } }
+					if($args['add_alert']) { add_alert('<u>أيضا، تم العثور على هذا الرمز بين بطاقات الحساب المحذوفة</u>. بطاقة حسابك <a href="'.get_site_url('admin/account/detail.php?id='.$q_is_code->id).'"><b>من هنا</b></a> يمكنك تفعيله مرة أخرى.', 'warning', 'add_account'); } }
 
 				return false;
-			} else { // إذا كان رمز الباركود نفسه غير موجود في قاعدة بيانات إيغر
+			} else {
 
 				if(isset($insert['name'])) 		{ $insert['name'] = til_get_strtoupper($insert['name']); }
 				if(isset($insert['address'])) 	{ $insert['address'] = til_get_strtoupper($insert['address']); }
@@ -70,14 +70,6 @@ function add_account($args) {
 	} else { repetitive_operation(__FUNCTION__); } // !have_log()
 }
 
-
-
-
-
-/**
- * get_account()
- * وهذه الوظيفة تجميد بطاقة حساب واحدة مع البيانات
- */
 function get_account($args, $_til=true) {
 
 	if(!is_array($args)) { $args = array('where'=>array('id'=>$args)); }	
@@ -100,26 +92,18 @@ function get_account($args, $_til=true) {
 			return false;
 		}
 	} else { add_mysqli_error_log(__FUNCTION__); }
-} //.get_account()
-
-
-
-
-/**
- * update_account()g
- * تحديث بطاقة حساب
- */
+}
 function update_account($where, $args) {
 
 	$where 	= input_check($where);
 	$args 	= _args_helper(input_check($args), 'update');
 	$update = $args['update'];
 
-	if(isset($update['id'])) { unset($update['id']); } // guvenlik icin eger hesap ID guncellenmek isteniyorsa guncellenmesin
+	if(isset($update['id'])) { unset($update['id']); }
 	
 
 
-	if(!have_log()) { // إذا لم يتم إضافة إيغر من قبل، لن يكون هناك إدخالات السجل.
+	if(!have_log()) {
 		if($old_account = get_account($where)) {
 
 			if(!isset($update['code'])) { $update['code'] = $old_account->code; }
@@ -139,24 +123,24 @@ function update_account($where, $args) {
 			@form_validation($update['tax_no'], 'tax_no', 'الرقم الضريبي', 'number|max_length[20]', 'update_account');
 
 
-			if(!is_alert(__FUNCTION__, 'danger')) { // eger herhangi bir hata yok ise
+			if(!is_alert(__FUNCTION__, 'danger')) {
 
-				// genel degerler
+
 				if(!isset($update['type'])) { $update['type'] = 'account'; } else { $update['type'] = $update['type']; }
 			
-				if(empty($update['code']) and strlen($old_account->code) < 1) { // eger code yani barkod kodu yok ise olusturalim
+				if(empty($update['code']) and strlen($old_account->code) < 1) {
 					$update['code'] = get_account_code_generator($old_account->id); }
 
 
 				$q_is_code = db()->query("SELECT * FROM ".dbname('accounts')." WHERE code='".$update['code']."' AND id NOT IN ('".$old_account->id."')");
-				if($q_is_code->num_rows) { // إذا كان قاعدة البيانات إغير لديه نفس الرمز الشريطي
+				if($q_is_code->num_rows) {
 					$q_is_code = $q_is_code->fetch_object();
 					
 					if($args['add_alert']) { add_alert('<b>'.$update['code'].'</b> تم العثور على رمز الحساب على بطاقة حساب أخرى. يرجى تغيير رمز الحساب أو <a href="'.get_site_url('admin/account/detail.php?id='.$q_is_code->id).'" target="_blank"><b>هنا</b></a> استخدام حساب.', 'warning', 'update_account'); }
 					if($q_is_code->status == '0') {
 						if($args['add_alert']) { add_alert('<u>أيضا، تم العثور على هذا الرمز في بطاقات الحساب المحذوفة</u>. بطاقة حسابك <a href="'.get_site_url('admin/account/detail.php?id='.$q_is_code->id).'"><b>buradan</b></a> يمكنك تفعيله مرة أخرى.', 'warning', 'update_account'); } }
 					return false;
-				} else { // إذا كان رمز الباركود نفسه غير موجود في قاعدة بيانات إيغر
+				} else {
 
 
 					if(isset($update['name'])) 		{ $update['name'] = til_get_strtoupper($update['name']); }
@@ -192,7 +176,7 @@ function update_account($where, $args) {
 
 /**
  * get_accounts()
- * قوائم بطاقات الحساب، وتجميد النتائج كما أوبج
+
  */
 function get_accounts($args=array()) {
 	$return = new StdClass;
@@ -207,7 +191,7 @@ function get_accounts($args=array()) {
 	/// query string
 	$query_str = "SELECT id FROM ".dbname('accounts')." WHERE status='".$args['status']."' ";
 	
-		// إذا كان هناك٪ s٪
+
 		if(isset($args['s'])) {
 			if($args['db-s-where'] == 'all') {
 				$query_str .= "AND ( name LIKE '%".$args['s']."%' ";
@@ -220,14 +204,14 @@ function get_accounts($args=array()) {
 			}
 		}
 
-	// سلسلة الاستعلام الحقيقي
+
 	$query_str_real = $query_str;
 
 		if(isset($args['orderby_name']) and isset($args['orderby_type'])) {
 			$query_str_real .= "ORDER BY ".$args['orderby_name']." ".$args['orderby_type'];
 		}
 
-		// إذا كان هناك ليمتر،
+
 		if($args['limit'] > 1) {
 			$query_str_real .= " LIMIT ".$args['page'].",".$args['limit']." "; 
 		}
@@ -276,7 +260,7 @@ function calc_account($id) {
 		$in = 0;
 		$out = 0;
 
-		// لجمع المدخلات
+
 		if($q_select_sum = db()->query("SELECT sum(total) as total,sum(profit) as profit FROM ".dbname('forms')." WHERE status='1' AND type IN ('form', 'salary') AND in_out='0' AND account_id='".$account->id."' ")) {
 			if($q_select_sum->num_rows) {
 				$in = $q_select_sum->fetch_object();
@@ -284,7 +268,7 @@ function calc_account($id) {
 		} else { add_mysqli_error_log(__FUNCTION__); }
 		
 
-		// وجمع حركات الخروج
+
 		if($q_select_sum = db()->query("SELECT sum(total) as total,sum(profit) as profit FROM ".dbname('forms')." WHERE status='1' AND type IN ('form', 'salary') AND in_out='1' AND account_id='".$account->id."' ")) {
 			if($q_select_sum->num_rows) {
 				$out = $q_select_sum->fetch_object();
@@ -294,11 +278,11 @@ function calc_account($id) {
 
 
 
-		// net bakiye
+
 		$balance = $out->total - $in->total;
 
 
-		// مدخل للغرف
+
 		if($q_select_sum = db()->query("SELECT sum(total) as total FROM ".dbname('forms')." WHERE status='1' AND type='payment' AND in_out='0' AND account_id='".$account->id."' ")) {
 			if($q_select_sum->num_rows) {
 				$in_payment = $q_select_sum->fetch_object();
@@ -306,7 +290,7 @@ function calc_account($id) {
 			}
 		} else { add_mysqli_error_log(__FUNCTION__); }
 
-		// للغرف
+
 		if($q_select_sum = db()->query("SELECT sum(total) as total FROM ".dbname('forms')." WHERE status='1' AND type='payment' AND in_out='1' AND account_id='".$account->id."' ")) {
 			if($q_select_sum->num_rows) {
 				$out_payment = $q_select_sum->fetch_object();
@@ -317,7 +301,7 @@ function calc_account($id) {
 
 		
 
-		// أنا بحاجة إلى ترقية بطاقة الأسهم الخاصة بي
+
 		if($q_update = db()->query("UPDATE ".dbname('accounts')." SET 
 			balance='".$balance."',
 			profit='".$out->profit."'
@@ -328,7 +312,7 @@ function calc_account($id) {
 		}
 
 	} else {
-		add_alert($id.' ID numaraları hesap kartı bulunamadı.', 'warning', __FUNCTION__);
+		add_alert($id.' أرقام الهوية بطاقة الحساب غير موجودة.', 'warning', __FUNCTION__);
 		return false;
 	}
 } //.calc_account()

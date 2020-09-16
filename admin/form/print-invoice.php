@@ -19,7 +19,7 @@ if(isset($_GET['id'])) {
 	?>
 	<?php get_header_print($print); ?>
 	
-	<!-- asagidaki satiri siliniz -->
+
 	<?php echo get_alert('يمكنك تغيير إيصال الفاتورة هذا إلى طلب الفوترة. <br /> <b>"/content/pages/form/print-invoice.php"</b> <br /><br /> للحصول على معلومات مفصلة ERPultra زيارة المنتديات والمستندات.'); ?>
 
 

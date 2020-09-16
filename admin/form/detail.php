@@ -139,13 +139,13 @@ if(isset($_GET['status'])) {
 
 
 
-/* حذف شكل الحركة */
+
 if(isset($_GET['delete_form_item'])) {
     delete_form_item($form->id, $_GET['delete_form_item']);
 }
 
 
-/* تحديثات النموذج */
+
 if($form->id) {
     calc_form($form->id);
     calc_account($form->account_id);

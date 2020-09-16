@@ -6,7 +6,7 @@ add_page_info( 'title', 'شجرة المستفيدين' );
 add_page_info( 'nav', array('name'=>'المستفيدين', 'url'=>get_site_url('admin/account/') ) );
 add_page_info( 'nav', array('name'=>'شجرة  المستفيدين') );
 
-// لطلب بناء على الطلب
+
 if(!isset($_GET['orderby_code'])) {
 	$_GET['orderby_code'] = 'code';
 	$_GET['orderby_type'] = 'ASC'; 
@@ -16,7 +16,7 @@ $accounts = get_accounts(array('_GET'=>true)); ?>
         <div class="col-xs-6 col-md-6">
             <?php
             if(!til_is_mobile()) :
-                // بحث لوحة
+
                 $arr_s = array();
                 $arr_s['s_name'] = 'accounts';
                 $arr_s['db-s-where'][] = array('name'=>'اسم المستفيد', 'val'=>'name');
@@ -74,7 +74,7 @@ $accounts = get_accounts(array('_GET'=>true)); ?>
 <?php
 
 if(til_is_mobile()) :
-	// بحث لوحة
+
     $arr_s = array();
     $arr_s['s_name'] = 'accounts';
     $arr_s['db-s-where'][] = array('name'=>'اسم المستفيد', 'val'=>'name');

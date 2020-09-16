@@ -3,12 +3,12 @@
 
 
 <?php
-add_page_info('title', 'Mesaj Kutusu - Gelen');
-add_page_info('nav', array('name'=>'Mesaj Kutusu'));
+add_page_info('title', 'صندوق الرسائل - واردة');
+add_page_info('nav', array('name'=>'صندوق الرسائل'));
 
 $messagebox = 'inbox';
-if(isset($_GET['outbox'])) 	{ $messagebox = 'outbox'; add_page_info('title', 'Mesaj Kutusu - Giden');	}
-if(isset($_GET['trash'])) 	{ $messagebox = 'trash'; add_page_info('title', 'Mesaj Kutusu - Çöp');	}
+if(isset($_GET['outbox'])) 	{ $messagebox = 'outbox'; add_page_info('title', 'صندوق الرسائل - مفتوح');	}
+if(isset($_GET['trash'])) 	{ $messagebox = 'trash'; add_page_info('title', 'صندوق الرسائل - محذوف');	}
 
 
 // mesajı çöp kutusuna taşıma
@@ -89,17 +89,17 @@ if($messagebox == 'inbox') {
 						<thead class="none">
 							<tr>
 								<th width="10"></th>
-								<th width="100">Gönderen</th>
+								<th width="100">مرسل</th>
 								<th width="100">Alıcı</th>
-								<th>Konu</th>
-								<th width="120">Tarih</th>
+								<th>موضوع</th>
+								<th width="120">التاريخ</th>
 							</tr>
 						</thead>
 						<tbody>
 						<?php foreach($messages as $list): ?>
 							<tr>
 								<td width="10">
-									<a href="?id=<?php echo $list->id; ?>&move=null&<?php if($list->inbox_u_id==get_active_user('id')){ echo 'inbox'; } else { echo 'outbox'; } ?>" class="btn btn-default btn-xs" data-toggle="tooltip" title="Çöp kutusundan çıkar"><i class="fa fa-reply text-warning"></i></a>
+									<a href="?id=<?php echo $list->id; ?>&move=null&<?php if($list->inbox_u_id==get_active_user('id')){ echo 'inbox'; } else { echo 'outbox'; } ?>" class="btn btn-default btn-xs" data-toggle="tooltip" title="أخرجه من سلة المهملات"><i class="fa fa-reply text-warning"></i></a>
 								</td>
 								<td width="140"><?php echo mb_substr(get_user_info($list->sen_u_id, 'name'),0,1); ?>. <?php echo get_user_info($list->sen_u_id, 'surname'); ?></td>
 								<td width="140"><?php echo mb_substr(get_user_info($list->rec_u_id, 'name'),0,1); ?>. <?php echo get_user_info($list->rec_u_id, 'surname'); ?></td>
@@ -125,7 +125,7 @@ if($messagebox == 'inbox') {
 					</table>
 				<?php else: ?>
 					<div class="not-found">
-						<?php echo get_alert('Çöp kutusu boş.', 'warning', false); ?>
+						<?php echo get_alert('سلة المهملات فارغة.', 'warning', false); ?>
 					</div>
 				<?php endif; ?>
 
@@ -135,16 +135,16 @@ if($messagebox == 'inbox') {
 						<thead class="none">
 							<tr>
 								<th width="10"></th>
-								<th width="180"><?php echo $messagebox == 'inbox' ? 'Gönderen' : 'Alıcı'; ?></th>
-								<th>Konu</th>
-								<th width="100">Tarih</th>
+								<th width="180"><?php echo $messagebox == 'inbox' ? 'مرسل' : 'المتلقي'; ?></th>
+								<th>الموضوع</th>
+								<th width="100">التاريخ</th>
 							</tr>
 						</thead>
 						<tbody>
 						<?php foreach($messages as $list): ?>
 							<tr class="<?php if(!$list->read_it and $list->inbox_u_id == get_active_user('id')): ?>bold<?php endif; ?>" onclick="location.href='<?php site_url('message', $list->id); ?>';">
 								<td width="10">
-									<a href="?id=<?php echo $list->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="Çöp kutusuna taşı"><i class="fa fa-trash text-danger"></i></a>
+									<a href="?id=<?php echo $list->id; ?>&move=trash" class="btn btn-default btn-xs" data-toggle="tooltip" title="ارسال الى سلة المحذوفات"><i class="fa fa-trash text-danger"></i></a>
 								</td>
 								<td width="220">
 									<?php if($messagebox == 'inbox'): ?>

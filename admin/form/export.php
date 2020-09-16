@@ -1,6 +1,6 @@
 <?php include('../../ultra.php'); ?>
 <meta charset="UTF-8">
-<title>قائمة النماذج | !ERPultra </title>
+<title>قائمة النماذج | !المستقبل </title>
 <?php
 ini_set('max_execution_time', 300);
 ini_set('memory_limit', '-1');
