@@ -449,14 +449,14 @@ if (isset($_POST['step_2'])) {
 
                                 $_POST['step_3'] = true;
                             } else {
-                                add_alert('Kullan?c? Hesab? Eklenemedi.');
+                                add_alert('تعذر اضافة المستخدم او الحساب');
                             }
                         } else {
                             add_alert('خطا الارتباط بقاعدة البيانات.');
                         }
                     }
                 } else {
-                    add_alert('MYSQL ERROR?!');
+                    add_alert('خطأ في قاعدة البيانات!');
                 }
             } else {
                 add_alert('هناك طريقة للذهاب. هل تريد الإعداد مرة أخرى؟ يمكنك محاولة.');
@@ -590,10 +590,10 @@ if (isset($_POST['step_2'])) {
 
     <?php if (!is_writable('erp-config.php')) : ?>
         <div class="form-container">
-            <?php add_alert('<b>"erp-config.php"</b> dosyas?n?n yaz?labilir de?il.') ?>
+            <?php add_alert('<b>"erp-config.php"</b> الملف غير قابل للكتابة.') ?>
             <?php print_alert(); ?>
             <small class="text-center block">الحصول على الدعم <a href="http://ultra.org/forum" class="bold">"ultra"</a>
-                forumlar?n? ziyaret ediniz.
+                يرجى التحدث مع الدعم الفني.
             </small>
             <?php exit; ?>
         </div>
