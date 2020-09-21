@@ -113,6 +113,8 @@ if (isset($_POST['step_2'])) {
                           `famelynum` int(11) DEFAULT NULL,
                           `needsomeone` varchar(255) DEFAULT NULL,
                           `note` varchar(255) DEFAULT NULL,
+                          `done` varchar(255) DEFAULT NULL,
+                          `living` varchar(255) DEFAULT NULL,
                           
 						  PRIMARY KEY (`id`),
 						  KEY `code` (`code`),
