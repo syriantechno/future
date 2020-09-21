@@ -444,7 +444,7 @@ if (isset($_POST['step_2'])) {
                                     fwrite($config, $config_writing);
                                     fclose($config);
                                 } else {
-                                    add_alert('erp-config.php Dosyas? yaz?labilir de?il!');
+                                    add_alert('ملف الاعدادت erp-config غير قابل للكتابة الرجاء التحقق من الصلاحيات');
                                 }
 
                                 $_POST['step_3'] = true;
