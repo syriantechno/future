@@ -192,7 +192,7 @@ if (isset($_POST['add'])) {
                 <div class="row">
                     <div class="col-xs-6 col-md-4">
                         <div class="form-group">
-                            <label for="needsomeone">المرافق</label>
+                            <label for="needsomeone">يحتاج حفوضات</label>
                             <select type="text" name="needsomeone" id="needsomeone"
                                     value="<?php echo @$_POST['needsomeone']; ?>"
                                     class="form-control select" maxlength="25">
