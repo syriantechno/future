@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/alerts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/alerts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/buttons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/colors.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/colors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/panels.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/panels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/_developer/tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/_developer/tabs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/default/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/default/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-    </list>
+    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +293,7 @@
       <workItem from="1600666298620" duration="440000" />
       <workItem from="1600781199895" duration="627000" />
       <workItem from="1600789815867" duration="638000" />
-      <workItem from="1601008083738" duration="3368000" />
+      <workItem from="1601008083738" duration="3986000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -495,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600666317116</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixed installation">
+      <created>1601024708180</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601024708180</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44697000" />
+    <option name="totallyTimeSpent" value="45315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="58" width="3840" height="1968" extended-state="6" />

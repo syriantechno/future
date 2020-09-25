@@ -1,1 +1,2 @@
-from phpstorm on liunx ubunto 20.04 lts
+from phpstorm on liunx ubuntu 20.04 lts
+on damdom anydisk
