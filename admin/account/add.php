@@ -196,8 +196,8 @@ if (isset($_POST['add'])) {
                             <select type="text" name="needsomeone" id="needsomeone"
                                     value="<?php echo @$_POST['needsomeone']; ?>"
                                     class="form-control select" maxlength="25">
-                                <option value="لايحتاج مرافق">لايحتاج مرافق</option>
-                                <option value="يحتاج مرافق">يحتاج مرافق</option>
+                                <option value="لايحتاج حفوضات">لايحتاج حفوضات</option>
+                                <option value="يحتاج حفوضات">يحتاج حفوضات</option>
                             </select>
                         </div>
                     </div>
