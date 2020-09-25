@@ -118,34 +118,34 @@
                             البيانات</a></li><?php endif; ?>
                 </ul>
             </li>
-            <!--        --><?php //if(user_access('superadmin')): ?>
-            <!--            <li class=""><a href="#"><i class="fa fa-code"></i> الاوامر البرمجية <span class="fa fa-caret-down caret-opt"></span></a>-->
-            <!--                <ul class="submenu">-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/colors.php'); ?><!--">قائمة الالوان</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/grid.php'); ?><!--">نظام الشبكة</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/typography.php'); ?><!--">طباعة</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/general.php'); ?><!--">العناصر العامة</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/form.php'); ?><!--">نماذج الادخال</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/buttons.php'); ?><!--">الأزرار</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/panels.php'); ?><!--">اللوحات</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/icons.php'); ?><!--">الايقونات</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/alerts.php'); ?><!--">التنبيهات</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/tabs.php'); ?><!--">علامات التبويب</a></li>-->
-            <!--                    <li><a href="-->
-            <?php //site_url('admin/_developer/helper.php'); ?><!--">مساعد CSS</a></li>-->
-            <!--                </ul>-->
-            <!--            </li>-->
-            <!--        --><?php //endif; ?>
+                    <?php if(user_access('superadmin')): ?>
+                        <li class=""><a href="#"><i class="fa fa-code"></i> الاوامر البرمجية <span class="fa fa-caret-down caret-opt"></span></a>
+                            <ul class="submenu">
+                                <li><a href="
+            <?php site_url('admin/_developer/colors.php'); ?>">قائمة الالوان</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/grid.php'); ?>">نظام الشبكة</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/typography.php'); ?>">طباعة</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/general.php'); ?>">العناصر العامة</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/form.php'); ?>">نماذج الادخال</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/buttons.php'); ?>">الأزرار</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/panels.php'); ?>">اللوحات</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/icons.php'); ?>">الايقونات</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/alerts.php'); ?>">التنبيهات</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/tabs.php'); ?>">علامات التبويب</a></li>
+                                <li><a href="
+            <?php site_url('admin/_developer/helper.php'); ?>">مساعد CSS</a></li>
+                            </ul>
+                        </li>
+                    <?php endif; ?>
         </ul> <!-- /.sidebar-menu -->
 
     </div> <!-- /.sidebar -->

@@ -5,7 +5,7 @@ add_page_info('title', 'Helper Css Classes');
 add_page_info('nav', array('name' => 'Developer', 'url' => get_site_url('admin/_developer/')));
 add_page_info('nav', array('name' => 'Helper Css Classes'));
 ?>
-<?php include('_header.php'); ?>
+<?php //include('_header.php'); ?>
 
     <div class="row">
         <div class="col-md-6">

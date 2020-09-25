@@ -5,7 +5,7 @@ add_page_info('title', 'General Elements');
 add_page_info('nav', array('name' => 'Developer', 'url' => get_site_url('admin/_developer/')));
 add_page_info('nav', array('name' => 'General Elements'));
 ?>
-<?php include('_header.php'); ?>
+<?php //include('_header.php'); ?>
 
 
     <div class="row">

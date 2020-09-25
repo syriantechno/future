@@ -5,7 +5,7 @@ add_page_info('title', 'Buttons');
 add_page_info('nav', array('name' => 'Developer', 'url' => get_site_url('admin/_developer/')));
 add_page_info('nav', array('name' => 'Buttons'));
 ?>
-<?php include('_header.php'); ?>
+<?php //include('_header.php'); ?>
 
 
     <div class="row">

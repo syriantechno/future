@@ -5,7 +5,7 @@ add_page_info('title', 'Alerts');
 add_page_info('nav', array('name' => 'Developer', 'url' => get_site_url('admin/_developer/')));
 add_page_info('nav', array('name' => 'Alerts'));
 ?>
-<?php include('_header.php'); ?>
+<?php //include('_header.php'); ?>
 
 
     <div class="row">
@@ -118,6 +118,30 @@ add_page_info('nav', array('name' => 'Alerts'));
                             <button type="button" class="btn btn-default">Or do this</button>
                         </p>
                     </div>
+                    <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-primary"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple primary alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-secondary"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple secondary alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-success"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple success alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-danger"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple danger alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-warning"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple warning alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-info"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple info alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-light"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple light alert—check it out!
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-dark"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  A simple dark alert—check it out!
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
                     <div class="alert alert-info">
                         <p><strong>Info!</strong> Indicates a neutral informative change or action.</p>

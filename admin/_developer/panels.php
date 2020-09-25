@@ -5,7 +5,7 @@ add_page_info('title', 'Panels');
 add_page_info('nav', array('name' => 'Developer', 'url' => get_site_url('admin/_developer/')));
 add_page_info('nav', array('name' => 'Panels'));
 ?>
-<?php include('_header.php'); ?>
+<?php //include('_header.php'); ?>
 
 
     <h3 class="content-title content-title-line"><i class="fa fa-star-o"></i> Panel colors</h3>
