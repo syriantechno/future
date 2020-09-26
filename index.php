@@ -40,7 +40,7 @@ add_page_info('title', 'جمعية المستقبل للمعوقين بحلب');
                 <div class="box-menu">
                     <a href="<?php site_url('admin/form/'); ?>">
 						<span class="icon-box3">
-                            <div class="stats-title"> التوزيع22  </div>
+                            <div class="stats-title"> التوزيع  </div>
                             <i class="faw fa-shopping-cart" style="color: rgba(255, 255, 255, 0.4117647058823529);"></i>
                              <hr>
 			    <div class="stats-desc">إضافة وتعديل توزيع المعونة</div>

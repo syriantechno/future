@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/erp-config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="144">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -80,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/user/message/list.php" />
         <option value="$PROJECT_DIR$/admin/user/message/list kopya.php" />
         <option value="$PROJECT_DIR$/admin/user/task/_sidebar.php" />
         <option value="$PROJECT_DIR$/includes/input.php" />
@@ -131,6 +138,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/erp-config.php" />
         <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -231,7 +239,7 @@
       <workItem from="1601059974231" duration="1518000" />
       <workItem from="1601082457783" duration="578000" />
       <workItem from="1601083067840" duration="651000" />
-      <workItem from="1601109585139" duration="16000" />
+      <workItem from="1601109585139" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -457,11 +465,32 @@
       <option name="project" value="LOCAL" />
       <updated>1601082881944</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="test1">
+      <created>1601109608505</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109608505</updated>
+    </task>
+    <task id="LOCAL-00034" summary="test1">
+      <created>1601109751461</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109751461</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test1">
+      <created>1601109951826</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601109951826</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48078000" />
+    <option name="totallyTimeSpent" value="48468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="58" width="3840" height="1968" extended-state="6" />
@@ -550,7 +579,8 @@
     <MESSAGE value="fixed installation" />
     <MESSAGE value="add damdmom text" />
     <MESSAGE value="change needsomeone" />
-    <option name="LAST_COMMIT_MESSAGE" value="change needsomeone" />
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/admin/payment/case.php">
@@ -701,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18072">
           <caret line="251" column="28" selection-start-line="251" selection-start-column="28" selection-end-line="251" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -886,8 +909,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="144">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
         </state>
       </provider>
     </entry>
