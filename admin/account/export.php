@@ -35,6 +35,7 @@ $accounts = get_accounts(array('_GET' => true));
                 <th><?php echo('الموبايل'); ?></th>
                 <th><?php echo('نوع الاعاقة'); ?></th>
                 <th><?php echo('العنوان'); ?></th>
+                <th><?php echo('الميلاد'); ?></th>
 
             </tr>
             <?php foreach ($accounts->list as $account): ?>
@@ -44,6 +45,7 @@ $accounts = get_accounts(array('_GET' => true));
                     <td><?php echo $account->gsm; ?></td>
                     <td><?php echo $account->Retardationtype; ?></td>
                     <td><?php echo $account->address; ?></td>
+                    <td><?php echo $account->DateofBirth = date_format(date_create($account->DateofBirth), 'Y-m-d'); ?></td>
 
                 </tr>
             <?php endforeach; ?>
@@ -56,6 +58,7 @@ $accounts = get_accounts(array('_GET' => true));
                 <th><?php echo('الموبايل'); ?></th>
                 <th><?php echo('نوع الاعاقة'); ?></th>
                 <th><?php echo('العنوان'); ?></th>
+                <th><?php echo('الميلاد'); ?></th>
 
             </tr>
             <?php foreach ($accounts->list as $account): ?>
@@ -65,6 +68,7 @@ $accounts = get_accounts(array('_GET' => true));
                     <td><?php echo $account->gsm; ?></td>
                     <td><?php echo $account->Retardationtype; ?></td>
                     <td><?php echo $account->address; ?></td>
+                    <td><?php echo $account->DateofBirth = date_format(date_create($account->DateofBirth), 'Y-m-d'); ?></td>
 
                 </tr>
             <?php endforeach; ?>
