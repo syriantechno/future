@@ -38,7 +38,23 @@ $accounts = get_accounts(array('_GET' => true));
                 <th><?php echo('الميلاد'); ?></th>
 
             </tr>
+
             <?php foreach ($accounts->list as $account): ?>
+                <?php
+                    $account->DateofBirth = date_format(date_create($account->DateofBirth), 'Y-m-d');
+
+                    if (isset($_GET['from_date']) && isset($_GET['to_date'])) {
+                        $from_date = date_format(date_create($_GET['from_date']), 'Y-m-d');
+
+                        $to_date = date_format(date_create($_GET['to_date']), 'Y-m-d');
+
+                        if (($account->DateofBirth >= $from_date) && ($account->DateofBirth <= $to_date)) {
+                            // is betwen
+                        } else {
+                            continue;
+                        }
+                    }
+                ?>
                 <tr>
                     <td><?php echo $account->code; ?></td>
                     <td><?php echo $account->name; ?></td>
@@ -62,6 +78,21 @@ $accounts = get_accounts(array('_GET' => true));
 
             </tr>
             <?php foreach ($accounts->list as $account): ?>
+                <?php
+                $account->DateofBirth = date_format(date_create($account->DateofBirth), 'Y-m-d');
+
+                if (isset($_GET['from_date']) && isset($_GET['to_date'])) {
+                    $from_date = date_format(date_create($_GET['from_date']), 'Y-m-d');
+
+                    $to_date = date_format(date_create($_GET['to_date']), 'Y-m-d');
+
+                    if (($account->DateofBirth >= $from_date) && ($account->DateofBirth <= $to_date)) {
+                        // is betwen
+                    } else {
+                        continue;
+                    }
+                }
+                ?>
                 <tr>
                     <td><?php echo $account->code; ?></td>
                     <td><?php echo $account->name; ?></td>
