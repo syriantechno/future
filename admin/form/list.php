@@ -37,6 +37,7 @@ $forms = get_forms(array('_GET' => true)); ?>
     $arr_s['s_name'] = 'forms';
     $arr_s['db-s-where'][] = array('name' => 'اسم المادة', 'val' => 'name');
     $arr_s['db-s-where'][] = array('name' => 'كود المادة', 'val' => 'code');
+    $arr_s['db-s-where'][] = array('name' => 'الحركة', 'val' => 'item_quantity');
     search_form_for_panel($arr_s);
     ?>
 
@@ -119,6 +120,7 @@ $forms = get_forms(array('_GET' => true)); ?>
                         $arr_s['s_name'] = 'forms';
                         $arr_s['db-s-where'][] = array('name' => 'اسم المادة', 'val' => 'name');
                         $arr_s['db-s-where'][] = array('name' => 'كود المادة', 'val' => 'code');
+                        $arr_s['db-s-where'][] = array('name' => 'fffff', 'val' => 'item_quantity');
                         search_form_for_panel($arr_s);
                         ?>
 

@@ -115,7 +115,7 @@ if (empty(@$_POST['code'])) {
                     <input type="hidden" name="add">
                     <input type="hidden" name="uniquetime" value="<?php uniquetime(); ?>">
 
-                    <button class="btn btn-success btn-xs-block btn-insert"><i class="fa fa-plus-square"></i> حفظ
+                    <button class="btn btn-outline-danger btn-xs-block btn-insert"><i class="fa fa-plus-square"></i> حفظ
                     </button>
                 </div>
 

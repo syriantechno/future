@@ -336,7 +336,7 @@ add_page_info('nav', array('name' => 'المواد'));
             <div class="panel panel-success panel-heading-0 panel-border-right panel-table panel-dashboard-list">
                 <div class="panel-body">
                     <div class="panel-list">
-                        <?php $query = db()->query("SELECT * FROM " . dbname('form_items') . " WHERE status='1' AND type='item' AND item_id > 0 ORDER BY date DESC LIMIT 50"); ?>
+                        <?php $query = db()->query("SELECT * FROM " . dbname('form_items') . " WHERE status='1' AND type='item' AND item_id > 0 ORDER BY date DESC "); ?>
                         <?php if ($query->num_rows): ?>
 
                             <table class="table table-hover table-condensed table-stripedd">
@@ -344,13 +344,14 @@ add_page_info('nav', array('name' => 'المواد'));
                                 <tr>
                                     <th>التاريخ</th>
                                     <th>رقم الحركة</th>
-                                    <th>بطاقة الحساب</th>
-                                    <th>د/خ</th>
+                                    <th>اسم المعونة</th>
+                                     <th>د/خ</th>
                                     <th class="text-center">عدد</th>
 
                                 </tr>
                                 </thead>
                                 <tbody>
+
                                 <?php while ($list = $query->fetch_object()): ?>
                                     <?php $item = get_item($list->item_id); ?>
                                     <tr class="">
@@ -365,6 +366,7 @@ add_page_info('nav', array('name' => 'المواد'));
                                         <td><a href="<?php site_url('admin/item/detail.php?id=' . $item->id); ?>"
                                                title="<?php echo $item->name; ?>"><?php echo !til_is_mobile() ? til_get_substr($item->name, 0, 40) : til_get_substr($item->name, 0, 16); ?></a>
                                         </td>
+
                                         <?php if ($list->in_out == '1'): ?>
                                             <td class="text-muted">خروج</td>
                                         <?php else: ?>
