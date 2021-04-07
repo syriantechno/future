@@ -19,8 +19,8 @@ if (!isset($_GET['orderby_code'])) {
     $_GET['orderby_type'] = 'ASC';
 }
 
-
 ?>
+
 <?php
     $_company = get_option('company');
     if (empty($_company)) {
@@ -53,12 +53,22 @@ if (til_is_mobile()) :
     $arr_s['db-s-where'][] = array('name' => 'تاريخ الميلاد', 'val' => 'DateofBirth');
     $arr_s['db-s-where'][] = array('name' => 'العنوان', 'val' => 'address');
     $arr_s['db-s-where'][] = array('name' => 'ملاحظات', 'val' => 'note');
+    $arr_s['db-s-where'][] = array('name' => 'تم الكشف', 'val' => 'done');
     search_form_for_panel($arr_s);
 
 endif;
 
 ?>
-
+    <button class="btn btn-success" type="submit"
+            style="    height: 29px;    text-align: center;    padding: 4px; border-radius: 2px;">
+        <a href="<?php site_url('admin/account/list.php?s=yes&db-s-where=done&orderby_code=code&orderby_type=ASC#'); ?>"> <i
+                    class="fa fa-arrow-circle-left text-black"></i> تم الكشف </a>
+    </button>
+    <button class="btn btn-warning" type="submit"
+            style="    height: 29px;    text-align: center;    padding: 4px; border-radius: 2px;">
+        <a href="<?php site_url('admin/account/list.php?s=no&db-s-where=done&orderby_code=code&orderby_type=ASC#'); ?>"> <i
+                    class="fa fa-arrow-circle-left text-black"></i>لم يتم الكشف </a>
+    </button>
     <div class="panel panel-default panel-table">
 
         <div class="panel-heading hidden-xs">
@@ -90,6 +100,7 @@ endif;
                                 <a href="<?php site_url('admin/account/list.php'); ?>"> <i
                                             class="fa fa-arrow-circle-left text-black"></i> عودة </a>
                             </button>
+
                         </div>
 
                     </form>
@@ -108,6 +119,7 @@ endif;
                         $arr_s['db-s-where'][] = array('name' => 'تاريخ الميلاد', 'val' => 'DateofBirth');
                         $arr_s['db-s-where'][] = array('name' => 'العنوان', 'val' => 'address');
                         $arr_s['db-s-where'][] = array('name' => 'الملاحظات', 'val' => 'note');
+                        $arr_s['db-s-where'][] = array('name' => 'تم الكشف', 'val' => 'done');
                         search_form_for_panel($arr_s);
                     endif;
                     ?>
@@ -212,6 +224,7 @@ endif;
                     <th>ر٫الموبايل <?php echo get_table_order_by('gsm', ''); ?></th>
                     <th>العنوان <?php echo get_table_order_by('address', ''); ?></th>
                     <th> الملاحظات <?php echo get_table_order_by('note', ''); ?></th>
+                    <th>الكشف <?php echo get_table_order_by('done', ''); ?></th>
 
 
                 </tr>
@@ -261,9 +274,11 @@ endif;
                         <td><?php echo $account->Retardationtype; ?></td>
                         <td><?php echo $account->mo3el; ?></td>
 
+
                         <td class="hidden-xs"><?php echo $account->gsm; ?></td>
                         <td class="hidden-xs"><?php echo $account->address; ?></td>
                         <td class="hidden-xs"><?php echo $account->note; ?></td>
+                        <td><?php echo $account->done; ?></td>
 
                     </tr>
                 <?php endforeach; ?>

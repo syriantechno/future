@@ -102,6 +102,9 @@ function add_account($args)
     } // !have_log()
 }
 
+function dd($t) {
+    return die(var_dump($t));
+}
 
 /**
  * get_account()
@@ -110,9 +113,10 @@ function add_account($args)
 function get_account($args, $_til = true)
 {
 
-    if (!is_array($args)) {
+    if (! is_array($args)) {
         $args = array('where' => array('id' => $args));
     }
+
     $args = _args_helper(input_check($args), 'where');
     $where = $args['where'];
 

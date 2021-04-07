@@ -55,7 +55,7 @@ $forms = get_forms(array('_GET' => true)); ?>
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($forms->list as $form): ?>
+                <?php foreach ($form_items->list as $form): ?>
                     <?php $form_status = get_form_status($form->status_id); ?>
                     <tr>
                         <td><a href="detail.php?id=<?php echo $form->id; ?>">#<?php echo $form->id; ?></a></td>

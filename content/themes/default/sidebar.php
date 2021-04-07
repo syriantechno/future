@@ -40,6 +40,8 @@
                         </li><?php endif; ?>
                     <li><a href="<?php site_url('admin/item/list.php'); ?>"><i class="fa fa-bars"></i>قائمة المعونة</a>
                     </li>
+                    <li><a href="<?php site_url('admin/item/all.php'); ?>"><i class="fa fa-bars"></i>المعونات الموزعة</a>
+                    </li>
                 </ul>
             </li>
             <li class="admin-form"><a href="#"><i class="fa fa-shopping-cart"></i> التوزيع <span

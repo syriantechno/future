@@ -227,6 +227,18 @@ if (isset($_POST['add'])) {
                                    class="form-control" maxlength="255">
                         </div>
                     </div>
+                    <div class=" col-xs-6 col-md-4">
+                        <div class="form-group">
+                            <label for="done">تم الكشف</label>
+                            <select type="text" name="done" id="done"
+                                    value="<?php echo @$_POST['done']; ?>" class="form-control select"
+                                    maxlength="100">
+                                <option><?php echo @$_POST['done']; ?></option>
+                                <option value="no" selected> لا</option>
+                                <option value="yes">نعم</option>
+                            </select>
+                        </div> <!-- /.form-group -->
+                    </div>
                 </div>
 
 

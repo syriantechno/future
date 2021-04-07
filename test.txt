@@ -3,3 +3,6 @@ test1
 test2
 test3
 test4
+UPDATE `erp_accounts` SET `done` = REPLACE (done,'نعم','yes')
+UPDATE `erp_accounts` SET `done` = REPLACE (done,'لا','no')
+update erp_accounts set done=no where length(done)=0;

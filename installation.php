@@ -128,7 +128,7 @@ if (isset($_POST['step_2'])) {
                 }
             }
 
-
+            
             // create extra
             if (!$db->query("SELECT * FROM " . $_database['prefix'] . "extra ")) {
                 if (!$db->query(

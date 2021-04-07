@@ -151,8 +151,8 @@ add_page_info('nav', array('name' => $account->name));
                                                 value="<?php echo $account->done; ?>" class="form-control select"
                                                 maxlength="100">
                                             <option><?= $account->done ?></option>
-                                            <option value="نعم">نعم</option>
-                                            <option value="لا">لا</option>
+                                            <option value="yes">نعم</option>
+                                            <option value="no">لا</option>
                                         </select>
                                     </div> <!-- /.form-group -->
                                 </div>
