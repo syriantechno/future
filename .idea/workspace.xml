@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/account/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/account/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/all.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/form/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/form/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/default/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/default/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/installation.php" beforeDir="false" afterPath="$PROJECT_DIR$/installation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-    </list>
+    <list default="true" id="2c5ababa-2787-459c-b736-1dc01ab8e132" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +302,7 @@
       <workItem from="1615900606216" duration="21079000" />
       <workItem from="1616294495036" duration="911000" />
       <workItem from="1617475017044" duration="3561000" />
-      <workItem from="1617798280677" duration="4035000" />
+      <workItem from="1617798280677" duration="4560000" />
     </task>
     <task id="LOCAL-00001" summary="dasf">
       <created>1600220142502</created>
@@ -588,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615792023694</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="change all items">
+      <created>1617802417605</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1617802417605</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92446000" />
+    <option name="totallyTimeSpent" value="92971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -683,7 +679,8 @@
     <MESSAGE value="change needsomeone" />
     <MESSAGE value="test1" />
     <MESSAGE value="add date to print" />
-    <option name="LAST_COMMIT_MESSAGE" value="add date to print" />
+    <MESSAGE value="change all items" />
+    <option name="LAST_COMMIT_MESSAGE" value="change all items" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/admin/system/backup/BackUp.php">
